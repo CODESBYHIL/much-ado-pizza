@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How It Was Built · Much Ado About Pizza redesign</title>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff; --surface: #f4f4f4; --ink: #141414; --muted: #5e5e5e;
+  --accent: #c41e17; --accent-ink: #ffffff; --field: #111111; --field-ink: #ffffff; --field-muted: #b5b5b5;
+  --ok: #1d7a3a;
+  --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-head: clamp(2.5rem, 1.2rem + 5vw, 5.5rem);
+  --m: clamp(20px, 2.2vw, 32px);
+  --font: "Cabinet Grotesk", "Helvetica Neue", Arial, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 var(--step-body)/1.5 var(--font); }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+h1, h2, h3, p { margin: 0; }
+h1, h2, h3 { font-weight: 800; letter-spacing: -0.035em; line-height: 0.95; text-wrap: balance; }
+.num { font-variant-numeric: tabular-nums; }
+.wrap { padding: 0 var(--m); }
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; }
+
+header { background: var(--field); color: var(--field-ink); padding: var(--m) var(--m) clamp(64px, 8vw, 120px); margin-bottom: 0; }
+header nav { display: flex; justify-content: space-between; align-items: center; font-size: var(--step-small); }
+header nav a { text-decoration: none; }
+.btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 500; transition: background-color 180ms ease, transform 180ms ease; }
+.btn:hover { background: #a91912; transform: translateY(-2px); }
+header h1 { font-size: var(--step-head); margin-top: clamp(64px, 9vw, 140px); max-width: 14ch; }
+header .lead { margin-top: 28px; max-width: 52ch; font-size: var(--step-lead); line-height: 1.35; color: var(--field-ink); }
+.skills { margin-top: 56px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.skill { padding: 20px 0 0; }
+.skill b { display: block; font-size: var(--step-lead); letter-spacing: -0.02em; }
+.skill span { display: block; color: var(--field-muted); font-size: var(--step-small); margin-top: 6px; }
+
+section.wrap { padding-top: clamp(120px, 12vw, 180px); }
+main { padding-bottom: clamp(120px, 12vw, 180px); }
+section > h2 { font-size: var(--step-head); max-width: 16ch; }
+.opt p, footer p, .flow p { max-width: 60ch; }
+.sub { margin-top: 20px; max-width: 60ch; font-size: var(--step-lead); line-height: 1.35; }
+.who { color: var(--accent); font-weight: 500; }
+
+.deal { margin-top: 56px; }
+.opt { grid-column: span 4; background: var(--surface); padding: 24px; }
+.opt.won { background: var(--field); color: var(--field-ink); }
+.opt b { display: block; font-size: var(--step-lead); letter-spacing: -0.02em; }
+.opt p { margin-top: 10px; }
+.opt .verdict { margin-top: 18px; font-weight: 500; }
+.opt.won .verdict { color: var(--field-ink); }
+.opt:not(.won) .verdict { color: var(--muted); }
+.sheet { margin-top: 24px; }
+.sheet dl { grid-column: 1 / 13; display: grid; grid-template-columns: 1fr 3fr; margin: 0; }
+.sheet dt, .sheet dd { margin: 0; padding: 14px 0; }
+.sheet dt { color: var(--muted); }
+.sheet dd { font-weight: 500; }
+.sheet dt:nth-of-type(odd), .sheet dd:nth-of-type(odd) { background: var(--surface); }
+.sheet dt { padding-left: 16px; }
+.idea { margin-top: 48px; font-size: var(--step-lead); line-height: 1.3; font-weight: 500; max-width: 40ch; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 48px; font-size: var(--step-body); }
+th, td { text-align: left; padding: 14px 16px; vertical-align: top; }
+thead th { font-weight: 500; color: var(--muted); }
+tbody tr:nth-child(odd) { background: var(--surface); }
+td.f { color: var(--accent); font-weight: 500; }
+td.p { color: var(--ok); font-weight: 500; }
+tr.final td { font-weight: 800; }
+
+.pair { margin-top: 48px; align-items: start; }
+.pair figure { margin: 0; }
+.pair .a { grid-column: 1 / 7; }
+.pair .b { grid-column: 7 / 13; }
+.pair figcaption { margin-top: 12px; }
+.pair figcaption b { font-weight: 500; }
+.pair figcaption span { display: block; color: var(--muted); font-size: var(--step-small); }
+.pair img { width: 100%; }
+.pair.tall img { aspect-ratio: 4 / 5; height: auto; object-fit: cover; object-position: top; }
+
+.audit { margin-top: 48px; }
+.audit code { font-size: var(--step-small); background: var(--surface); padding: 2px 6px; }
+.audit td:nth-child(2) { white-space: nowrap; }
+
+.checks { margin-top: 48px; columns: 2; column-gap: 48px; list-style: none; padding: 0; }
+.checks li { break-inside: avoid; padding: 12px 0 12px 32px; position: relative; }
+.checks li::before { content: ""; position: absolute; left: 4px; top: 21px; width: 12px; height: 12px; border-radius: 50%; background: var(--ok); }
+.checks li.x::before { background: var(--muted); border-radius: 0; height: 3px; top: 26px; }
+.checks li small { display: block; color: var(--muted); font-size: var(--step-small); }
+
+.flow { margin-top: 48px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.flow div { padding: 0 24px 0 0; }
+.flow div + div { padding-left: 24px; background: var(--surface); padding-block: 24px; }
+.flow div:nth-child(3) { background: var(--field); color: var(--field-ink); }
+.flow b { font-size: var(--step-lead); display: block; letter-spacing: -0.02em; }
+.flow p { margin-top: 8px; }
+
+footer { background: var(--field); color: var(--field-ink); padding: clamp(64px, 8vw, 120px) var(--m) 40px; }
+footer h2 { font-size: var(--step-head); }
+footer p { margin-top: 20px; color: var(--field-muted); max-width: 60ch; }
+footer .btn { margin-top: 32px; }
+
+@media (max-width: 860px) {
+  .skills, .flow { grid-template-columns: 1fr 1fr; }
+  .opt { grid-column: 1 / -1; margin-bottom: 12px; }
+  .pair .a, .pair .b { grid-column: 1 / -1; }
+  .pair .b { margin-top: 32px; }
+  .checks { columns: 1; }
+  .sheet dl { grid-template-columns: 1fr; }
+  .sheet dt { padding-bottom: 0; }
+  .sheet dd { padding-left: 16px; }
+  thead { display: none; }
+  table, tbody, tr, td { display: block; }
+  tr { padding: 12px 0; }
+  td { padding: 4px 16px; }
+
+}
+@media (max-width: 520px) { .skills, .flow { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: no-preference) {
+  .js [data-reveal] { opacity: 0; transform: translateY(24px); transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1), transform 900ms cubic-bezier(0.22, 1, 0.36, 1); transition-delay: calc(var(--i, 0) * 80ms); }
+  .js [data-reveal].is-in { opacity: 1; transform: none; }
+  .js header h1, .js header .lead { animation: rise 900ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+  .js header .lead { animation-delay: 120ms; }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(28px); } }
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header>
+  <nav><a href="index.html" translate="no">← Much Ado, the redesign</a><a class="btn" href="index.html">Open the Site</a></nav>
+  <h1>How the new site was built</h1>
+  <p class="lead">A demo redesign for Much Ado About Pizza in Pleasanton. Four skills ran on it, each one doing a job you can check below: one dealt the art direction and measured the page in a real browser, one audited it against Vercel’s interface rules, and two kept it on plan.</p>
+  <div class="skills">
+    <div class="skill"><b>/design-taste-frontend</b><span>Art direction, house rules, browser inspector, critique</span></div>
+    <div class="skill"><b>/web-design-guidelines</b><span>Vercel Web Interface Guidelines audit</span></div>
+    <div class="skill"><b>/design</b><span>Atris design policy and pre-ship checklist</span></div>
+    <div class="skill"><b>/atris</b><span>Plan, approve, build, review</span></div>
+  </div>
+</header>
+
+<main>
+  <section class="wrap">
+    <h2>The look was dealt, not guessed</h2>
+    <p class="sub"><span class="who">/design-taste-frontend</span> ran its <code>draw.mjs</code> script on the brief and dealt three researched directions from a study of 247 award-winning sites. The one picked had to carry something only this shop has.</p>
+    <div class="grid deal">
+      <div class="opt"><b>One motif</b><p>One shape from the subject runs the whole system: buttons, image masks, a loader.</p><p class="verdict">Passed over: a pie is round for every pizzeria, so it fails the competitor test.</p></div>
+      <div class="opt won"><b>The name as a monument</b><p>The name is the headline, set so large it becomes architecture.</p><p class="verdict">Chosen: a playbill puts the show’s title huge, and this shop is a play.</p></div>
+      <div class="opt"><b>The split stage</b><p>Half the screen holds one still photograph while the other half scrolls.</p><p class="verdict">Passed over: 20 photos of real pies are this shop’s strength, not one.</p></div>
+    </div>
+    <div class="grid sheet">
+      <dl>
+        <dt>Seed</dt><dd class="num">830065457, sector restaurant</dd>
+        <dt>Hero</dt><dd>Ring of frames around the headline: 11 pies from the live menu, each with the photo the shop named after it, each linking to its row</dd>
+        <dt>Type</dt><dd>Cabinet Grotesk only, 800 for display, 400 for text</dd>
+        <dt>Colour</dt><dd>White and ink from the dealt palette; the accent swapped from biro blue to the red of the shop’s own logo</dd>
+        <dt>Sections</dt><dd>Menu as a table pushed right · honours running off both edges · catering inverted · the company · address in display rows · footer over a cropped name</dd>
+        <dt>Motion</dt><dd>Masked headline rise, staggered section entrances, a slow drift on the pies, the running band</dd>
+      </dl>
+    </div>
+    <p class="idea">The idea, in the skill’s required sentence: on this page, the shop’s cast of Shakespeare-named pies becomes a playbill, with the name as the marquee, the pies ringed like a cast and the menu as the cast list.</p>
+  </section>
+
+  <section class="wrap">
+    <h2>Measured until it passed</h2>
+    <p class="sub"><span class="who">/design-taste-frontend</span> opened the page in Chrome at 1440, 768 and 390 pixels with <code>inspect.mjs</code>, measured it against its house rules, and screenshotted every screen. Every FAIL was fixed before moving on.</p>
+    <div class="table-scroll">
+    <table>
+      <thead><tr><th>Round</th><th>Fails</th><th>Warnings</th><th>What it caught, and the fix</th></tr></thead>
+      <tbody>
+        <tr><td class="num">Lint</td><td class="f num">1</td><td class="num">0</td><td>A gradient hiding in the nav underline. Replaced with a flat bar.</td></tr>
+        <tr><td class="num">1</td><td class="f num">3</td><td class="num">8</td><td>The pinned “The Company” title covered the text under it for five screens. Small labels beside the address rows read as eyebrows. 18 font sizes.</td></tr>
+        <tr><td class="num">2</td><td class="f num">4</td><td class="num">6</td><td>Two near-empty screens beside the menu. A 600px dead black field in catering. The phone order bar covering the footer name.</td></tr>
+        <tr><td class="num">3</td><td class="f num">2</td><td class="num">5</td><td>The catering button sat right against “The Company” on tablets. The phone order bar covered the address rows. Margins measured 32px left but 57px right.</td></tr>
+        <tr><td class="num">4</td><td class="p num">0</td><td class="num">4</td><td>Passed the meter. Screenshots still showed phone prices jumping ahead of pie names and a wrapped footer button, so those were fixed too.</td></tr>
+        <tr><td class="num">5</td><td class="f num">1</td><td class="num">3</td><td>After the Vercel fixes: the phone order bar covered “The Company” mid-scroll. It now hides while you scroll down and returns on scroll up.</td></tr>
+        <tr><td class="num">6</td><td class="p num">0</td><td class="num">3</td><td>Client feedback: the hero ring crowded the text on shorter laptop screens, and the menu had a dead column. The ring now sits on a fixed-shape stage that scales as one piece (even frames, phone shows two clean arcs). The menu photo is sticky and swaps to whichever pie you point at.</td></tr>
+        <tr><td class="num">7</td><td class="p num">0</td><td class="num">3</td><td>Menu synced to the shop’s live HungerRush ordering page: 19 pizzas (3 seasonal spotlights), 4 breads, 2 salads, 8 dips. Every row now opens its own HungerRush section; HungerRush has no link to a single item, so that is as deep as a link can go.</td></tr>
+        <tr class="final"><td class="num">Final</td><td class="p num">0</td><td class="num">3</td><td>Remaining warnings defended: no honest video of this shop exists, the moving band is wide by design, phone type uses five fluid steps.</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="grid pair">
+      <figure class="a"><img src="process/before-desktop.jpg" alt="Earlier round: the menu with an empty left half" width="1600" height="1000" loading="lazy"><figcaption><b>Round 2</b><span>The menu’s left half sat empty for two screens.</span></figcaption></figure>
+      <figure class="b"><img src="process/after-desktop.jpg" alt="Final: the menu with three real pies down the left" width="1600" height="1000" loading="lazy"><figcaption><b>Final</b><span>Three real pies fill the column, each named with its price.</span></figcaption></figure>
+    </div>
+    <div class="grid pair tall">
+      <figure class="a"><img src="process/before-mobile.jpg" alt="Earlier round on a phone: menu prices out of line with pie names" width="1560" height="1688" loading="lazy"><figcaption><b>Round 4, phone</b><span>Prices drifted in front of the pie names.</span></figcaption></figure>
+      <figure class="b"><img src="process/after-mobile.jpg" alt="Final on a phone: each pie with its price on the same line" width="1560" height="1688" loading="lazy"><figcaption><b>Final, phone</b><span>Name and price share a line; the order bar steps aside while you read.</span></figcaption></figure>
+    </div>
+    <p class="sub" style="margin-top:48px">Its critique rubric, scored like an Awwwards juror: design 7.5 · usability 8 · creativity 7.5 · content 8, <b>overall 7.7</b>. Real Sites of the Day land around 7.5 to 8.</p>
+  </section>
+
+  <section class="wrap">
+    <h2>Audited against Vercel’s rules</h2>
+    <p class="sub"><span class="who">/web-design-guidelines</span> fetched the latest Vercel Web Interface Guidelines and checked the source line by line. Ten findings, all resolved.</p>
+    <div class="table-scroll">
+    <table class="audit">
+      <thead><tr><th>Finding</th><th>Line</th><th>Fix</th></tr></thead>
+      <tbody>
+        <tr><td>Catering input missing <code>autocomplete</code></td><td><code>:376</code></td><td>Added <code>autocomplete="off"</code></td></tr>
+        <tr><td>Honours band moves for more than 5 seconds with no way to stop it</td><td><code>:124</code></td><td>A pause button, plus pause on hover</td></tr>
+        <tr><td>No <code>touch-action</code> or tap highlight set</td><td><code>:33</code></td><td><code>touch-action: manipulation</code> on every control</td></tr>
+        <tr><td>Counts written as words (“Fourteen pies”)</td><td><code>:330</code></td><td>Numerals: “14 pies”, “feeds 2 or 3”, “at 15”</td></tr>
+        <tr><td>Buttons not in Title Case</td><td><code>:340</code></td><td>“Order for Pickup”, “Plan the Catering”</td></tr>
+        <tr><td>Brand and pie names would be garbled by auto-translate</td><td><code>:301</code></td><td><code>translate="no"</code> on the name and every pie</td></tr>
+        <tr><td>First-screen photos not prioritised</td><td><code>:315</code></td><td><code>fetchpriority="high"</code> on the top of the ring</td></tr>
+        <tr><td>Footer email overflowed at 768px</td><td><code>:193</code></td><td>Breaks safely with <code>overflow-wrap</code></td></tr>
+        <tr><td>Phone order bar could cover a focused link</td><td><code>:268</code></td><td><code>scroll-padding-bottom</code> clears it</td></tr>
+        <tr><td>Display headlines in sentence case</td><td>every headline</td><td>Kept on purpose: the taste skill’s house style wins for headlines</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p class="sub" style="margin-top:24px" data-keep>Line numbers point into <code>index.src.html</code> as it stood before the fixes.</p>
+  </section>
+
+  <section class="wrap">
+    <h2>Checked against the /design policy</h2>
+    <p class="sub"><span class="who">/design</span> is the Atris pre-ship checklist. Where it and the taste skill disagree, the stricter rule won.</p>
+    <ul class="checks">
+      <li>Aesthetic named in three words<small>Playbill, loud, warm</small></li>
+      <li>Distinctive font, not a default<small>Cabinet Grotesk, weights 400 and 800</small></li>
+      <li>One intentional signature animation<small>The headline rises line by line from its baseline</small></li>
+      <li>Hero passes the 5-second test<small>What, where, when it is open, and an Order button</small></li>
+      <li>Every control has hover, focus and press states</li>
+      <li>Touch targets 44px or more, no horizontal scroll on phones</li>
+      <li>Respects <code>prefers-reduced-motion</code><small>Every move has a still fallback; the band stops</small></li>
+      <li>No glassmorphism, gradient text, neon or identical card grids</li>
+      <li class="x">Background depth from gradients<small>Overruled: the taste skill bans gradients, so depth comes from photos and flat fields</small></li>
+      <li>Would a designer clock it as AI-made?<small>No stock pictures: every photo is the shop’s own</small></li>
+    </ul>
+  </section>
+
+  <section class="wrap">
+    <h2>Run the Atris way</h2>
+    <p class="sub"><span class="who">/atris</span> kept the work in three gated stages, with the plan approved before any code was written.</p>
+    <div class="flow">
+      <div><b>Plan</b><p>Researched the shop: site, city spotlight, press, menus. Found six reasons it loses sales. Drew the layout in ASCII and waited for a yes.</p></div>
+      <div><b>Do</b><p>Built the approved sections only: order in one tap, the full menu on the page, hours with a live status, catering, delivery links.</p></div>
+      <div><b>Review</b><p>Inspector to 0 fails at three widths, Vercel audit clean, critique written down, journal and task list updated.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <h2>See it for yourself.</h2>
+  <p>Demo only. Photos come from the shop’s own site, and prices from its latest published menu; both need the owners’ OK before launch.</p>
+  <a class="btn" href="index.html">Open the Site →</a>
+</footer>
+<script>
+(() => {
+  const sel = 'section > h2, section > .sub, .opt, .sheet, .idea, table, .pair figure, .checks li, .skill';
+  const els = document.querySelectorAll(sel);
+  els.forEach((el, i) => { el.setAttribute('data-reveal', ''); el.style.setProperty('--i', i % 4); });
+  if (!('IntersectionObserver' in window)) { els.forEach((el) => el.classList.add('is-in')); return; }
+  const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+  els.forEach((el) => io.observe(el));
+  addEventListener('load', () => setTimeout(() => els.forEach((el) => { const r = el.getBoundingClientRect(); if (r.top < innerHeight && r.bottom > 0) el.classList.add('is-in'); }), 2500));
+})();
+</script>
+</body>
+</html>
