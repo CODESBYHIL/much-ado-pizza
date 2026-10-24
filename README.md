@@ -1,8 +1,9 @@
 # Much Ado About Pizza: website redesign (demo)
 
 A concept redesign for Much Ado About Pizza, Mission Plaza, Pleasanton CA. Built 2026-10-22 as a demo
-for the owners. **Not published anywhere**: it carries the shop's real name, logo, photos and live
-ordering links, so it goes online only with the owners' OK.
+for the owners, who OK'd sharing it on 2026-10-23. Live preview: https://codesbyhil.github.io/much-ado-pizza/
+(GitHub Pages runs only the static page, so ordering there is always the demo; a bar at the top says so,
+and search engines are asked not to list it).
 
 Open `index.html` in a browser to see it. `process.html` shows how it was built and which skills did what.
 
@@ -13,6 +14,8 @@ Open `index.html` in a browser to see it. `process.html` shows how it was built 
 | `index.html` | The built site. Don't edit by hand; it is rebuilt from the two files below. |
 | `index.src.html` | The page: layout, styles, scripts. Placeholders like `{{PIES}}` are filled by `build.py`. |
 | `build.py` | The menu (pizzas, breads, salads, dips, prices) and the build. Run `python3 build.py`. |
+| `server.mjs` | Serves the site and takes payment with Stripe inside the page. `node server.mjs`, then open http://localhost:4242. No packages. |
+| `menu.json` | Written by `build.py`. The price list the server charges from (it never trusts prices from the browser). |
 | `ring.py` | The hero's pizza wheel: which pies, their order, placement. Run `python3 ring.py`, then `build.py`. |
 | `process.html` | Build notes: the dealt design direction, every inspector round, the Vercel audit, checklists. |
 | `web/` | Web-sized photos (`name.jpg` large, `name-s.jpg` small). `img/` holds the originals from the shop's site. |
@@ -34,12 +37,39 @@ Menu copied from the live HungerRush ordering page on 2026-10-22. HungerRush has
 item (items open in a popup), so each menu row opens its HungerRush section (#pizzas, #appetizers,
 #salads, #epicdips).
 
+## Ordering on the page
+
+Nobody leaves the site to order. Tapping a pie (in the menu or the wheel) opens a sheet with its photo,
+style (Original round or Marlowe rectangle), any choices (sauce and up to 5 toppings for As You Like It,
+the included dip for Bard Bread), a kitchen note and how many. "Your order" (bottom right; on a phone, the
+red bar button) opens the bag: order → pickup (name, phone, a 15-minute slot on the next open days) → pay
+→ done. The bag is remembered in the visitor's browser.
+
+- **Demo mode** (opened as a file, or the server running without keys): the pay step says nothing is
+  charged and places a pretend order. Nothing reaches the shop.
+- **Real payments:** `STRIPE_SECRET_KEY=sk_test_... STRIPE_PUBLISHABLE_KEY=pk_test_... node server.mjs`.
+  Stripe's own card form (cards, Apple Pay, Google Pay) loads inside the bag. Paid orders print in the
+  terminal and append to `orders.jsonl`. Test card: 4242 4242 4242 4242, any future date, any CVC.
+
+## Menu photos
+
+Every pie and bread in the menu uses the shop's own item photo from its HungerRush ordering page
+(originals in `img/hungerrush/`). `python3 photos.py` turns them into `web/hr/name.jpg` (3:2, for the
+preview and the order sheet) and `name-s.jpg` (square thumbnail). They are only 600×300, so ask the
+owners for the full-size files before launch. The hero wheel still uses the larger photos from their site.
+
 ## Before launch
+
+- **The kitchen must get the orders.** Today they come through HungerRush, which feeds the shop's POS.
+  Paying on this site skips that, so before going live pick one: a Stripe webhook that prints/texts/emails
+  each order to the shop, or keep HungerRush for the kitchen side. Decide this with the owners first.
+- Sales tax: turn on Stripe Tax (or add a tax rate in `server.mjs`); the bag says tax is added at payment.
+- Prices to confirm: extra dips ($1–$3, so they're paid at pickup for now), topping prices on As You Like It
+  (charged at the $22 base for now), and whether the Marlowe rectangle costs the same as the round.
+- To host it, the server needs a Node host (or the two `/api` routes moved to Vercel functions).
 
 - Owners confirm prices and the photo-to-pie matches (Ham Let's photo was matched by toppings).
 - Owners OK the use of their photos; low-res ones (Henry the 8, Viola's Veggie, Portia's) want replacing.
-- 8 pies have no photo yet: Shake-ula, Frankenspeare, Alls Well In The End Zone, As You Like It,
-  Capulet, Fowl-Staff, Montague, O'Thello's O'bsession.
 
 ## How the website works (plain version)
 

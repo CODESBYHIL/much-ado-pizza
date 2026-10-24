@@ -1,6 +1,6 @@
 {
  "url": "index.html",
- "at": "2026-10-22T22:50:14.715Z",
+ "at": "2026-10-24T06:20:13.793Z",
  "allow": [],
  "viewports": [
   {
@@ -10,22 +10,22 @@
    "screens": 12,
    "filled": [
     1,
-    0.5,
-    0.46,
-    0.46,
-    0.65,
-    0.63,
+    0.47,
+    0.39,
+    0.38,
+    0.64,
+    0.68,
+    0.29,
     0.28,
-    0.27,
-    0.42,
-    0.23,
-    0.66,
-    0.65
+    0.38,
+    0.29,
+    0.33,
+    0.87
    ],
    "motion": {
     "elements": 36,
-    "css": 17,
-    "transitions": 19,
+    "css": 16,
+    "transitions": 20,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -36,10 +36,10 @@
      "h": 900
     },
     "page": {
-     "height": 11286,
-     "screens": 12.5,
-     "words": 868,
-     "img": 22,
+     "height": 10900,
+     "screens": 12.1,
+     "words": 893,
+     "img": 73,
      "video": 0,
      "canvas": 0,
      "svg": 1,
@@ -48,7 +48,7 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 16,
+     "realPictures": 40,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -118,9 +118,9 @@
       "kind": "heading"
      },
      {
-      "text": "19 pies, all sourdough.",
-      "words": 4,
-      "chars": 23,
+      "text": "Specialty sourdough pizza.",
+      "words": 3,
+      "chars": 26,
       "lines": 2,
       "size": 88,
       "vw": 6.1,
@@ -132,13 +132,34 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.96,
+      "position": "left",
+      "widthRatio": 0.55,
       "top": 900,
       "tag": "h2",
       "kind": "heading"
      },
      {
+      "text": "Ham Let",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 45.1,
+      "vw": 3.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1591,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
       "text": "Yelp Top 100, 2024",
       "words": 4,
       "chars": 18,
@@ -155,7 +176,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -176,7 +197,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -197,7 +218,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -218,7 +239,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -239,7 +260,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -260,7 +281,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -281,7 +302,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -302,7 +323,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -323,7 +344,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -344,7 +365,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -365,7 +386,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -386,7 +407,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -407,7 +428,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -428,7 +449,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 4195,
+      "top": 4321,
       "tag": "span",
       "kind": "heading"
      },
@@ -449,7 +470,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.96,
-      "top": 4816,
+      "top": 4941,
       "tag": "h2",
       "kind": "heading"
      },
@@ -470,7 +491,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.96,
-      "top": 5518,
+      "top": 5644,
       "tag": "h2",
       "kind": "heading"
      },
@@ -478,126 +499,21 @@
       "text": "Where art thou?",
       "words": 3,
       "chars": 15,
-      "lines": 1,
+      "lines": 2,
       "size": 88,
       "vw": 6.1,
       "font": "Cabinet Grotesk",
       "weight": 800,
       "tracking": -0.035,
-      "leading": 1,
+      "leading": 0.95,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9148,
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 9274,
       "tag": "h2",
-      "kind": "heading"
-     },
-     {
-      "text": "Mission Plaza",
-      "words": 2,
-      "chars": 13,
-      "lines": 1,
-      "size": 88,
-      "vw": 6.1,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9292,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "1991 Santa Rita Rd, Suite E ↗",
-      "words": 7,
-      "chars": 29,
-      "lines": 1,
-      "size": 88,
-      "vw": 6.1,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9436,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
-      "text": "Pleasanton, CA 94566",
-      "words": 3,
-      "chars": 20,
-      "lines": 1,
-      "size": 88,
-      "vw": 6.1,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9580,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "Tue–Sun, 3–8pm",
-      "words": 2,
-      "chars": 14,
-      "lines": 1,
-      "size": 88,
-      "vw": 6.1,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9724,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "925-750-7527",
-      "words": 1,
-      "chars": 12,
-      "lines": 1,
-      "size": 88,
-      "vw": 6.1,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9868,
-      "tag": "a",
       "kind": "heading"
      },
      {
@@ -617,7 +533,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 10012,
+      "top": 9682,
       "tag": "a",
       "kind": "heading"
      },
@@ -638,7 +554,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.55,
-      "top": 10501,
+      "top": 10114,
       "tag": "h2",
       "kind": "heading"
      },
@@ -659,16 +575,16 @@
       "align": "center",
       "position": "center",
       "widthRatio": 1,
-      "top": 10972,
+      "top": 10585,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 27,
+     "count": 23,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 4,
+     "statements": 1,
      "centered": 2,
      "medianWords": 3,
      "mixedFontHeadings": 0
@@ -688,12 +604,13 @@
       17,
       19,
       26,
+      45,
       84,
       88,
       144,
       336
      ],
-     "sizeCount": 9,
+     "sizeCount": 10,
      "notLoaded": [],
      "body": {
       "font": "Cabinet Grotesk",
@@ -743,7 +660,7 @@
       },
       {
        "color": "#f4f4f4",
-       "top": 1168,
+       "top": 6001,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -758,19 +675,19 @@
       },
       {
        "color": "#ffffff",
-       "share": 0.12
+       "share": 0.13
       },
       {
        "color": "#5e5e5e",
-       "share": 0.09
+       "share": 0.1
       },
       {
        "color": "#b5b5b5",
-       "share": 0.05
+       "share": 0.04
       },
       {
        "color": "#c41e17",
-       "share": 0.01
+       "share": 0
       }
      ],
      "button": {
@@ -785,7 +702,7 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 5,
+     "count": 6,
      "inHero": 3,
      "radius": 0,
      "height": 52,
@@ -814,7 +731,7 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 5,
+     "squareMedia": 29,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -837,10 +754,10 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 11286,
+    "pageH": 10900,
     "margins": {
      "left": 32,
-     "right": 42
+     "right": 48
     },
     "sections": [
      {
@@ -848,7 +765,7 @@
       "tag": "header",
       "top": 0,
       "height": 900,
-      "words": 43,
+      "words": 37,
       "media": 11,
       "middle": 0,
       "heading": {
@@ -867,18 +784,22 @@
       "pinned": false
      },
      {
-      "sel": "h2#menu-h.is-in",
-      "tag": "h2",
+      "sel": "div.opener.grid",
+      "tag": "div",
       "top": 900,
       "height": 172,
-      "words": 0,
+      "words": 18,
       "media": 0,
       "middle": 0,
-      "heading": null,
-      "left": null,
-      "right": null,
-      "textLeft": null,
-      "textRight": null,
+      "heading": {
+       "text": "19 pies named for the plays, on Kira’s slow-fermen",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 965,
+      "right": 82,
+      "textLeft": 965,
+      "textRight": 82,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -889,14 +810,14 @@
       "sel": "div.body.grid",
       "tag": "div",
       "top": 1168,
-      "height": 2946,
-      "words": 439,
-      "media": 0,
-      "middle": 438,
+      "height": 3072,
+      "words": 455,
+      "media": 1,
+      "middle": 24,
       "heading": {
-       "text": "Ham Let, $32",
-       "size": 26,
-       "tag": "figcaption"
+       "text": "Ham Let",
+       "size": 45,
+       "tag": "h3"
       },
       "left": 32,
       "right": 48,
@@ -911,11 +832,11 @@
      {
       "sel": "section.proof",
       "tag": "section",
-      "top": 4114,
+      "top": 4240,
       "height": 528,
       "words": 115,
       "media": 0,
-      "middle": 14933,
+      "middle": 14930,
       "heading": {
        "text": "Yelp Top 100, 2024",
        "size": 144,
@@ -923,8 +844,8 @@
       },
       "left": 0,
       "right": 0,
-      "textLeft": -2345,
-      "textRight": -15942,
+      "textLeft": -2348,
+      "textRight": -15938,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -934,7 +855,7 @@
      {
       "sel": "section#catering.cater.wrap",
       "tag": "section",
-      "top": 4816,
+      "top": 4941,
       "height": 530,
       "words": 31,
       "media": 0,
@@ -957,7 +878,7 @@
      {
       "sel": "div.pin",
       "tag": "div",
-      "top": 5518,
+      "top": 5644,
       "height": 122,
       "words": 0,
       "media": 0,
@@ -976,7 +897,7 @@
      {
       "sel": "div.people",
       "tag": "div",
-      "top": 5875,
+      "top": 6001,
       "height": 3100,
       "words": 152,
       "media": 4,
@@ -999,20 +920,20 @@
      {
       "sel": "section#visit.visit",
       "tag": "section",
-      "top": 9148,
-      "height": 1065,
-      "words": 45,
+      "top": 9274,
+      "height": 552,
+      "words": 39,
       "media": 0,
-      "middle": 35,
+      "middle": 68,
       "heading": {
-       "text": "Where art thou?",
+       "text": "Hungry? Order now",
        "size": 88,
-       "tag": "h2"
+       "tag": "a"
       },
       "left": 32,
-      "right": 53,
+      "right": 48,
       "textLeft": 32,
-      "textRight": 53,
+      "textRight": 48,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1022,7 +943,7 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 10386,
+      "top": 9999,
       "height": 900,
       "words": 38,
       "media": 0,
@@ -1045,8 +966,8 @@
     ],
     "gaps": [
      {
-      "top": 10212,
-      "height": 276
+      "top": 9808,
+      "height": 292
      }
     ],
     "h1s": [
@@ -1061,18 +982,18 @@
     "edges": [
      {
       "x": 32,
-      "n": 9
+      "n": 11
      },
      {
       "x": 615,
       "n": 4
      },
      {
-      "x": 75,
+      "x": 732,
       "n": 1
      },
      {
-      "x": 732,
+      "x": 965,
       "n": 1
      },
      {
@@ -1080,7 +1001,7 @@
       "n": 1
      }
     ],
-    "leftBlocks": 16,
+    "leftBlocks": 18,
     "bodySize": 19,
     "stage": false,
     "explains": false,
@@ -1103,20 +1024,20 @@
    "screens": 10,
    "filled": [
     1,
-    0.36,
-    0.3,
-    0.32,
-    0.58,
-    0.64,
-    0.32,
     0.33,
-    0.59,
-    0.76
+    0.36,
+    0.34,
+    0.42,
+    0.63,
+    0.57,
+    0.36,
+    0.31,
+    0.64
    ],
    "motion": {
     "elements": 36,
-    "css": 17,
-    "transitions": 19,
+    "css": 16,
+    "transitions": 20,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -1127,10 +1048,10 @@
      "h": 1024
     },
     "page": {
-     "height": 9649,
-     "screens": 9.4,
-     "words": 868,
-     "img": 22,
+     "height": 10144,
+     "screens": 9.9,
+     "words": 893,
+     "img": 73,
      "video": 0,
      "canvas": 0,
      "svg": 1,
@@ -1139,15 +1060,18 @@
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 5,
+     "realPictures": 29,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
-      "polish2022.jpg",
-      "kira.jpg",
-      "mark.jpg",
-      "logo2.jpg",
-      "p20260929.jpg"
+      "shakeula.jpg",
+      "frankenspeare.jpg",
+      "allswellintheendzone.jpg",
+      "theoriginalpizza.jpg",
+      "asyoulikeitpizza.jpg",
+      "thegroundlingpizza.jpg",
+      "tamingofthechewpizza.jpg",
+      "capuletpizza.jpg"
      ],
      "blendText": 0,
      "sideScrollers": 0,
@@ -1172,7 +1096,7 @@
      "align": "center",
      "position": "center",
      "widthRatio": 0.51,
-     "top": 407,
+     "top": 417,
      "tag": "h1",
      "kind": "heading"
     },
@@ -1201,14 +1125,14 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.51,
-      "top": 407,
+      "top": 417,
       "tag": "h1",
       "kind": "heading"
      },
      {
-      "text": "19 pies, all sourdough.",
-      "words": 4,
-      "chars": 23,
+      "text": "Specialty sourdough pizza.",
+      "words": 3,
+      "chars": 26,
       "lines": 2,
       "size": 57.6,
       "vw": 7.5,
@@ -1220,13 +1144,34 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.95,
-      "top": 1024,
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1070,
       "tag": "h2",
       "kind": "heading"
      },
      {
+      "text": "Ham Let",
+      "words": 2,
+      "chars": 7,
+      "lines": 1,
+      "size": 33,
+      "vw": 4.3,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 1478,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
       "text": "Yelp Top 100, 2024",
       "words": 4,
       "chars": 18,
@@ -1243,7 +1188,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1264,7 +1209,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1285,7 +1230,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1306,7 +1251,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1327,7 +1272,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1348,7 +1293,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1369,7 +1314,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1390,7 +1335,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1411,7 +1356,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1432,7 +1377,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1453,7 +1398,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1474,7 +1419,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1495,7 +1440,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1516,7 +1461,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 4946,
+      "top": 5583,
       "tag": "span",
       "kind": "heading"
      },
@@ -1537,7 +1482,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.95,
-      "top": 5547,
+      "top": 6184,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1558,7 +1503,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.95,
-      "top": 6018,
+      "top": 6655,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1566,126 +1511,21 @@
       "text": "Where art thou?",
       "words": 3,
       "chars": 15,
-      "lines": 1,
+      "lines": 2,
       "size": 57.6,
       "vw": 7.5,
       "font": "Cabinet Grotesk",
       "weight": 800,
       "tracking": -0.035,
-      "leading": 1,
+      "leading": 0.95,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8304,
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 8941,
       "tag": "h2",
-      "kind": "heading"
-     },
-     {
-      "text": "Mission Plaza",
-      "words": 2,
-      "chars": 13,
-      "lines": 1,
-      "size": 57.6,
-      "vw": 7.5,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8388,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "1991 Santa Rita Rd, Suite E ↗",
-      "words": 7,
-      "chars": 29,
-      "lines": 1,
-      "size": 57.6,
-      "vw": 7.5,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8472,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
-      "text": "Pleasanton, CA 94566",
-      "words": 3,
-      "chars": 20,
-      "lines": 1,
-      "size": 57.6,
-      "vw": 7.5,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8556,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "Tue–Sun, 3–8pm",
-      "words": 2,
-      "chars": 14,
-      "lines": 1,
-      "size": 57.6,
-      "vw": 7.5,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8640,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "925-750-7527",
-      "words": 1,
-      "chars": 12,
-      "lines": 1,
-      "size": 57.6,
-      "vw": 7.5,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8724,
-      "tag": "a",
       "kind": "heading"
      },
      {
@@ -1705,7 +1545,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 8808,
+      "top": 9392,
       "tag": "a",
       "kind": "heading"
      },
@@ -1726,7 +1566,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.54,
-      "top": 9142,
+      "top": 9636,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1747,16 +1587,16 @@
       "align": "center",
       "position": "center",
       "widthRatio": 1,
-      "top": 9480,
+      "top": 9974,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 27,
+     "count": 23,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 4,
+     "statements": 1,
      "centered": 2,
      "medianWords": 3,
      "mixedFontHeadings": 0
@@ -1775,12 +1615,13 @@
       15,
       18,
       23,
+      33,
       47,
       58,
       77,
       178
      ],
-     "sizeCount": 8,
+     "sizeCount": 9,
      "notLoaded": [],
      "body": {
       "font": "Cabinet Grotesk",
@@ -1836,19 +1677,19 @@
       },
       {
        "color": "#ffffff",
-       "share": 0.12
+       "share": 0.13
       },
       {
        "color": "#5e5e5e",
-       "share": 0.09
+       "share": 0.1
       },
       {
        "color": "#b5b5b5",
-       "share": 0.05
+       "share": 0.04
       },
       {
        "color": "#c41e17",
-       "share": 0.01
+       "share": 0
       }
      ],
      "button": {
@@ -1863,7 +1704,7 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 5,
+     "count": 6,
      "inHero": 3,
      "radius": 0,
      "height": 52,
@@ -1892,7 +1733,7 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 5,
+     "squareMedia": 29,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -1915,10 +1756,10 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 9649,
+    "pageH": 10144,
     "margins": {
      "left": 20,
-     "right": 22
+     "right": 23
     },
     "sections": [
      {
@@ -1926,7 +1767,7 @@
       "tag": "header",
       "top": 0,
       "height": 1024,
-      "words": 43,
+      "words": 37,
       "media": 0,
       "middle": 0,
       "heading": {
@@ -1945,19 +1786,42 @@
       "pinned": false
      },
      {
-      "sel": "section#menu.menu.wrap",
-      "tag": "section",
+      "sel": "div.opener.grid",
+      "tag": "div",
       "top": 1024,
-      "height": 3787,
-      "words": 441,
-      "media": 1,
-      "middle": 0,
+      "height": 158,
+      "words": 19,
+      "media": 0,
+      "middle": 278,
       "heading": {
-       "text": "all sourdough.",
+       "text": "Specialty",
        "size": 58,
        "tag": "h2"
       },
-      "left": 16,
+      "left": 20,
+      "right": 24,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.body.grid",
+      "tag": "div",
+      "top": 1278,
+      "height": 4169,
+      "words": 455,
+      "media": 1,
+      "middle": 24,
+      "heading": {
+       "text": "Ham Let",
+       "size": 33,
+       "tag": "h3"
+      },
+      "left": 20,
       "right": 23,
       "textLeft": 20,
       "textRight": 23,
@@ -1970,7 +1834,7 @@
      {
       "sel": "section.proof",
       "tag": "section",
-      "top": 4811,
+      "top": 5447,
       "height": 640,
       "words": 115,
       "media": 0,
@@ -1993,7 +1857,7 @@
      {
       "sel": "section#catering.cater.wrap",
       "tag": "section",
-      "top": 5547,
+      "top": 6184,
       "height": 376,
       "words": 31,
       "media": 0,
@@ -2016,7 +1880,7 @@
      {
       "sel": "div.intro",
       "tag": "div",
-      "top": 6084,
+      "top": 6721,
       "height": 126,
       "words": 19,
       "media": 0,
@@ -2035,7 +1899,7 @@
      {
       "sel": "div.people",
       "tag": "div",
-      "top": 6290,
+      "top": 6927,
       "height": 1919,
       "words": 152,
       "media": 4,
@@ -2054,20 +1918,20 @@
      {
       "sel": "section#visit.visit",
       "tag": "section",
-      "top": 8304,
-      "height": 678,
-      "words": 45,
+      "top": 8941,
+      "height": 535,
+      "words": 39,
       "media": 0,
-      "middle": 0,
+      "middle": 45,
       "heading": {
-       "text": "Where art thou?",
+       "text": "Hungry? Order now",
        "size": 58,
-       "tag": "h2"
+       "tag": "a"
       },
       "left": 20,
-      "right": 25,
+      "right": 23,
       "textLeft": 20,
-      "textRight": 25,
+      "textRight": 23,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2077,7 +1941,7 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 9078,
+      "top": 9572,
       "height": 571,
       "words": 38,
       "media": 0,
@@ -2103,7 +1967,7 @@
      {
       "text": "Much Ado About Pizza",
       "size": 47,
-      "top": 407,
+      "top": 417,
       "firstScreen": true
      }
     ],
@@ -2111,18 +1975,18 @@
     "edges": [
      {
       "x": 20,
-      "n": 9
+      "n": 11
      },
      {
       "x": 333,
       "n": 2
      },
      {
-      "x": 43,
+      "x": 396,
       "n": 1
      },
      {
-      "x": 396,
+      "x": 521,
       "n": 1
      },
      {
@@ -2130,7 +1994,7 @@
       "n": 1
      }
     ],
-    "leftBlocks": 14,
+    "leftBlocks": 16,
     "bodySize": 18,
     "stage": false,
     "explains": false,
@@ -2148,22 +2012,22 @@
    "screens": 12,
    "filled": [
     1,
-    0.41,
-    0.36,
-    0.36,
-    0.33,
-    0.5,
-    0.7,
-    0.56,
+    0.46,
+    0.42,
+    0.37,
     0.38,
-    0.49,
-    0.77,
-    0.84
+    0.37,
+    0.63,
+    0.57,
+    0.47,
+    0.43,
+    0.44,
+    0.7
    ],
    "motion": {
-    "elements": 39,
+    "elements": 40,
     "css": 16,
-    "transitions": 23,
+    "transitions": 24,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -2174,10 +2038,10 @@
      "h": 844
     },
     "page": {
-     "height": 10075,
-     "screens": 11.9,
-     "words": 875,
-     "img": 22,
+     "height": 10305,
+     "screens": 12.2,
+     "words": 883,
+     "img": 73,
      "video": 0,
      "canvas": 0,
      "svg": 1,
@@ -2218,7 +2082,7 @@
      "align": "center",
      "position": "center",
      "widthRatio": 0.88,
-     "top": 318,
+     "top": 327,
      "tag": "h1",
      "kind": "heading"
     },
@@ -2247,17 +2111,17 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 318,
+      "top": 327,
       "tag": "h1",
       "kind": "heading"
      },
      {
-      "text": "19 pies, all sourdough.",
-      "words": 4,
-      "chars": 23,
+      "text": "Specialty sourdough pizza.",
+      "words": 3,
+      "chars": 26,
       "lines": 2,
-      "size": 37.1,
-      "vw": 9.5,
+      "size": 46.8,
+      "vw": 12,
       "font": "Cabinet Grotesk",
       "weight": 800,
       "tracking": -0.035,
@@ -2289,7 +2153,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 1.35,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2310,7 +2174,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 1.35,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2331,7 +2195,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.61,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2352,7 +2216,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.12,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2373,7 +2237,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.95,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2394,7 +2258,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.76,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2415,7 +2279,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.22,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2436,7 +2300,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.35,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2457,7 +2321,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.35,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2478,7 +2342,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.61,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2499,7 +2363,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.12,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2520,7 +2384,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.95,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2541,7 +2405,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.76,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2562,7 +2426,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.22,
-      "top": 4977,
+      "top": 5364,
       "tag": "span",
       "kind": "heading"
      },
@@ -2583,7 +2447,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 5603,
+      "top": 5990,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2604,7 +2468,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 6106,
+      "top": 6493,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2625,7 +2489,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 6259,
+      "top": 6646,
       "tag": "p",
       "kind": "statement"
      },
@@ -2634,132 +2498,27 @@
       "words": 3,
       "chars": 15,
       "lines": 1,
-      "size": 37.4,
-      "vw": 9.6,
+      "size": 42.9,
+      "vw": 11,
       "font": "Cabinet Grotesk",
       "weight": 800,
       "tracking": -0.035,
-      "leading": 1,
+      "leading": 0.95,
       "upper": false,
       "italic": false,
       "mono": false,
       "align": "left",
       "position": "center",
-      "widthRatio": 1,
-      "top": 8627,
+      "widthRatio": 0.92,
+      "top": 9014,
       "tag": "h2",
-      "kind": "heading"
-     },
-     {
-      "text": "Mission Plaza",
-      "words": 2,
-      "chars": 13,
-      "lines": 1,
-      "size": 37.4,
-      "vw": 9.6,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8711,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "1991 Santa Rita Rd, Suite E ↗",
-      "words": 7,
-      "chars": 29,
-      "lines": 2,
-      "size": 37.4,
-      "vw": 9.6,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8795,
-      "tag": "a",
-      "kind": "heading"
-     },
-     {
-      "text": "Pleasanton, CA 94566",
-      "words": 3,
-      "chars": 20,
-      "lines": 1,
-      "size": 37.4,
-      "vw": 9.6,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8885,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "Tue–Sun, 3–8pm",
-      "words": 2,
-      "chars": 14,
-      "lines": 1,
-      "size": 37.4,
-      "vw": 9.6,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 8969,
-      "tag": "p",
-      "kind": "statement"
-     },
-     {
-      "text": "925-750-7527",
-      "words": 1,
-      "chars": 12,
-      "lines": 1,
-      "size": 37.4,
-      "vw": 9.6,
-      "font": "Cabinet Grotesk",
-      "weight": 400,
-      "tracking": -0.035,
-      "leading": 1,
-      "upper": false,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 1,
-      "top": 9053,
-      "tag": "a",
       "kind": "heading"
      },
      {
       "text": "Hungry? Order now",
       "words": 3,
       "chars": 17,
-      "lines": 2,
+      "lines": 1,
       "size": 37.4,
       "vw": 9.6,
       "font": "Cabinet Grotesk",
@@ -2772,7 +2531,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 9137,
+      "top": 9510,
       "tag": "a",
       "kind": "heading"
      },
@@ -2793,7 +2552,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 9524,
+      "top": 9754,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2814,16 +2573,16 @@
       "align": "center",
       "position": "center",
       "widthRatio": 1,
-      "top": 9927,
+      "top": 10156,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 28,
+     "count": 23,
      "maxLines": 4,
      "over2Lines": 0,
-     "statements": 5,
+     "statements": 2,
      "centered": 2,
      "medianWords": 3,
      "mixedFontHeadings": 0
@@ -2847,11 +2606,12 @@
       22,
       37,
       43,
+      47,
       59,
       66,
       85
      ],
-     "sizeCount": 12,
+     "sizeCount": 13,
      "notLoaded": [],
      "body": {
       "font": "Cabinet Grotesk",
@@ -2911,11 +2671,11 @@
       },
       {
        "color": "#5e5e5e",
-       "share": 0.09
+       "share": 0.1
       },
       {
        "color": "#b5b5b5",
-       "share": 0.05
+       "share": 0.04
       },
       {
        "color": "#c41e17",
@@ -2987,7 +2747,7 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 10075,
+    "pageH": 10305,
     "margins": {
      "left": 16,
      "right": 22
@@ -2998,7 +2758,7 @@
       "tag": "header",
       "top": 0,
       "height": 844,
-      "words": 39,
+      "words": 33,
       "media": 0,
       "middle": 0,
       "heading": {
@@ -3007,9 +2767,9 @@
        "tag": "h1"
       },
       "left": 38,
-      "right": 38,
-      "textLeft": 40,
-      "textRight": 38,
+      "right": 24,
+      "textLeft": 41,
+      "textRight": 24,
       "fullBleed": false,
       "footer": false,
       "hero": true,
@@ -3017,22 +2777,41 @@
       "pinned": false
      },
      {
-      "sel": "section#menu.menu.wrap",
-      "tag": "section",
+      "sel": "div.opener.grid",
+      "tag": "div",
       "top": 844,
-      "height": 4069,
-      "words": 449,
+      "height": 191,
+      "words": 20,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "all sourdough.",
-       "size": 37,
+       "text": "sourdough pizza.",
+       "size": 47,
        "tag": "h2"
       },
-      "left": 12,
-      "right": 12,
+      "left": 20,
+      "right": 22,
       "textLeft": 20,
-      "textRight": 31,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.body.grid",
+      "tag": "div",
+      "top": 1075,
+      "height": 4225,
+      "words": 447,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -3042,7 +2821,7 @@
      {
       "sel": "section.proof",
       "tag": "section",
-      "top": 4913,
+      "top": 5301,
       "height": 593,
       "words": 115,
       "media": 0,
@@ -3065,7 +2844,7 @@
      {
       "sel": "section#catering.cater.wrap",
       "tag": "section",
-      "top": 5603,
+      "top": 5990,
       "height": 391,
       "words": 31,
       "media": 0,
@@ -3088,7 +2867,7 @@
      {
       "sel": "div.pin",
       "tag": "div",
-      "top": 6090,
+      "top": 6477,
       "height": 129,
       "words": 0,
       "media": 0,
@@ -3107,7 +2886,7 @@
      {
       "sel": "div.intro",
       "tag": "div",
-      "top": 6219,
+      "top": 6606,
       "height": 150,
       "words": 19,
       "media": 0,
@@ -3130,7 +2909,7 @@
      {
       "sel": "div.people",
       "tag": "div",
-      "top": 6417,
+      "top": 6804,
       "height": 2114,
       "words": 152,
       "media": 4,
@@ -3149,20 +2928,20 @@
      {
       "sel": "section#visit.visit",
       "tag": "section",
-      "top": 8627,
-      "height": 738,
-      "words": 45,
+      "top": 9014,
+      "height": 580,
+      "words": 39,
       "media": 0,
       "middle": 0,
       "heading": {
-       "text": "Where art thou?",
+       "text": "Hungry? Order now",
        "size": 37,
-       "tag": "h2"
+       "tag": "a"
       },
       "left": 16,
-      "right": 29,
+      "right": 66,
       "textLeft": 16,
-      "textRight": 29,
+      "textRight": 66,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -3172,7 +2951,7 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 9460,
+      "top": 9690,
       "height": 614,
       "words": 40,
       "media": 0,
@@ -3198,7 +2977,7 @@
      {
       "text": "Much Ado About Pizza",
       "size": 43,
-      "top": 318,
+      "top": 327,
       "firstScreen": true
      }
     ],
@@ -3224,6 +3003,16 @@
  "findings": [
   {
    "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (13, 14, 17, 19, 26, 45, 84, 88, 144, 336).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
    "id": "no-footage",
    "width": 1440,
    "message": "No video anywhere on the page.",
@@ -3231,9 +3020,16 @@
   },
   {
    "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 32px on the left, 48px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
    "id": "empty-middle",
    "width": 1440,
-   "message": "1 section(s) have content at both edges and 14933px of nothing between: \"Yelp Top 100, 2024\"",
+   "message": "1 section(s) have content at both edges and 14930px of nothing between: \"Yelp Top 100, 2024\"",
    "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half.",
    "alsoAt": [
     768
@@ -3241,10 +3037,10 @@
   },
   {
    "level": "WARN",
-   "id": "size-count",
-   "width": 390,
-   "message": "12 different font sizes (13, 15, 16, 17, 19, 20, 22, 37, 43, 59, 66, 85).",
-   "fix": "A page needs about five: display, heading, lead, body, small."
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 4 screens in a row: \"Ham Let\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
   }
  ],
  "images": [

@@ -1,0 +1,421 @@
+{
+ "pie-shake-ula": {
+  "id": "pie-shake-ula",
+  "kind": "White garlic",
+  "name": "Shake-ula",
+  "what": "Spotlight, vegetarian. Italian cheese blend under splatters of the award-winning red sauce",
+  "price": "$22",
+  "cents": 2200,
+  "img": "hr/shakeula",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-frankenspeare": {
+  "id": "pie-frankenspeare",
+  "kind": "Pesto",
+  "name": "Frankenspeare",
+  "what": "Spotlight. Italian sausage, red onion, mushrooms",
+  "price": "$28",
+  "cents": 2800,
+  "img": "hr/frankenspeare",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-alls-well-in-the-end-zone": {
+  "id": "pie-alls-well-in-the-end-zone",
+  "kind": "White garlic",
+  "name": "Alls Well In The End Zone",
+  "what": "Spotlight, limited time. Goat cheese, bacon, red onion, jalapeños",
+  "price": "$30",
+  "cents": 3000,
+  "img": "hr/allswellintheendzone",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-much-ado-original-cheese": {
+  "id": "pie-much-ado-original-cheese",
+  "kind": "Red",
+  "name": "Much Ado Original Cheese",
+  "what": "House tomato sauce, Italian cheese blend, fresh basil",
+  "price": "$22",
+  "cents": 2200,
+  "img": "hr/theoriginalpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-as-you-like-it": {
+  "id": "pie-as-you-like-it",
+  "kind": "Your pick",
+  "name": "As You Like It",
+  "what": "Build your own: one of 3 sauces, the 5-cheese blend, up to 5 toppings. No half and half",
+  "price": "from $22",
+  "cents": 2200,
+  "img": "hr/asyoulikeitpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ],
+   "sauce": [
+    "Red",
+    "White garlic",
+    "Pesto"
+   ],
+   "toppings": [
+    "Pepperoni",
+    "Italian sausage",
+    "Bacon",
+    "Ham",
+    "Prosciutto",
+    "Roasted chicken",
+    "Mushrooms",
+    "Red onion",
+    "Green peppers",
+    "Black olives",
+    "Pineapple",
+    "Jalapeños",
+    "Spinach",
+    "Broccoli",
+    "Cherry tomatoes",
+    "Seasonal squash",
+    "Goat cheese",
+    "Truffle cheese",
+    "Arugula",
+    "Fresh basil"
+   ]
+  }
+ },
+ "pie-groundling": {
+  "id": "pie-groundling",
+  "kind": "Pesto",
+  "name": "Groundling",
+  "what": "Vegetarian. Italian cheese blend, fresh cherry tomatoes",
+  "price": "$24",
+  "cents": 2400,
+  "img": "hr/thegroundlingpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-taming-of-the-chew": {
+  "id": "pie-taming-of-the-chew",
+  "kind": "Red",
+  "name": "Taming of the Chew",
+  "what": "An epic amount of pepperoni. Ask for the “Kiss Me Kate” to add jalapeños",
+  "price": "$25",
+  "cents": 2500,
+  "img": "hr/tamingofthechewpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-capulet": {
+  "id": "pie-capulet",
+  "kind": "Red",
+  "name": "Capulet",
+  "what": "Vegetarian margherita. Goat cheese, mozzarella, cherry tomatoes, fresh basil",
+  "price": "$25",
+  "cents": 2500,
+  "img": "hr/capuletpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-tempest": {
+  "id": "pie-tempest",
+  "kind": "Red",
+  "name": "Tempest",
+  "what": "Vegetarian. Goat cheese, pineapple, black olives",
+  "price": "$28",
+  "cents": 2800,
+  "img": "hr/tempestpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-quatrain": {
+  "id": "pie-quatrain",
+  "kind": "Red",
+  "name": "Quatrain",
+  "what": "Vegetarian. Black olives, baby bella mushrooms, green peppers, red onion",
+  "price": "$28",
+  "cents": 2800,
+  "img": "hr/thequatrainpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-fowl-staff": {
+  "id": "pie-fowl-staff",
+  "kind": "White garlic",
+  "name": "Fowl-Staff",
+  "what": "Truffle cheese, roasted chicken, mushrooms, red onion",
+  "price": "$29",
+  "cents": 2900,
+  "img": "hr/fowlstaffpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-montague": {
+  "id": "pie-montague",
+  "kind": "Red",
+  "name": "Montague",
+  "what": "Truffle cheese, pepperoni, Italian sausage, mushroom",
+  "price": "$30",
+  "cents": 3000,
+  "img": "hr/montaguepizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-violas-veggie": {
+  "id": "pie-violas-veggie",
+  "kind": "White garlic",
+  "name": "Viola’s Veggie",
+  "what": "Award-winning, vegetarian. Spinach, basil, truffle cheese, seasonal squash, red onion",
+  "price": "$30",
+  "cents": 3000,
+  "img": "hr/violasvegpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-ham-let": {
+  "id": "pie-ham-let",
+  "kind": "Red",
+  "name": "Ham Let",
+  "what": "Prosciutto, ham, pineapple, green peppers, finished with arugula and baby bell peppers",
+  "price": "$32",
+  "cents": 3200,
+  "img": "hr/hamletpizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-othellos-obsession": {
+  "id": "pie-othellos-obsession",
+  "kind": "Pesto",
+  "name": "O’Thello’s O’bsession",
+  "what": "Vegetarian. Spinach, seasonal squash, red onion, broccoli, arugula, baby bell peppers",
+  "price": "$32",
+  "cents": 3200,
+  "img": "hr/othellospizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-portias-pesto-pizza": {
+  "id": "pie-portias-pesto-pizza",
+  "kind": "Pesto",
+  "name": "Portia’s Pesto Pizza",
+  "what": "Roasted chicken, bacon, spinach, red onion, cherry tomatoes",
+  "price": "$32",
+  "cents": 3200,
+  "img": "hr/portiaspestopizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-titanias-bounty": {
+  "id": "pie-titanias-bounty",
+  "kind": "Red and garlic",
+  "name": "Titania’s Bounty",
+  "what": "Vegetarian, two sauces. Squash, olives, onion, peppers, broccoli, fresh greens and tomatoes",
+  "price": "$32",
+  "cents": 3200,
+  "img": "hr/titaniasbountypizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-act-five": {
+  "id": "pie-act-five",
+  "kind": "Red",
+  "name": "Act Five",
+  "what": "The combo. Pepperoni, Italian sausage, mushrooms, green peppers, red onion",
+  "price": "$33",
+  "cents": 3300,
+  "img": "hr/actfivepizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-henry-the-8": {
+  "id": "pie-henry-the-8",
+  "kind": "Red",
+  "name": "Henry the 8",
+  "what": "Cup-and-char pepperoni, Italian sausage, mushrooms, black olives, red onion, green peppers",
+  "price": "$35",
+  "cents": 3500,
+  "img": "hr/henrythe8pizza",
+  "section": "pizzas",
+  "opts": {
+   "style": [
+    "Original, 14-inch round",
+    "Marlowe, 13×9 rectangle"
+   ]
+  }
+ },
+ "pie-cheesy-bard-bread": {
+  "id": "pie-cheesy-bard-bread",
+  "kind": "Bread",
+  "name": "Cheesy “Bard” Bread",
+  "what": "Garlic EVOO, Italian herbs and cheese, with one epic dip",
+  "price": "$8",
+  "cents": 800,
+  "img": "hr/garlicbread",
+  "section": "appetizers",
+  "opts": {
+   "dip": [
+    "Much Ado red",
+    "Benedick white garlic",
+    "Beatrice pesto",
+    "Hot honey",
+    "Salsa Parmesan",
+    "Don Rancho garlic ranch",
+    "Jalapeño ranch",
+    "Ranch"
+   ]
+  }
+ },
+ "pie-stuffed-cheesy-bread": {
+  "id": "pie-stuffed-cheesy-bread",
+  "kind": "Bread",
+  "name": "Stuffed Cheesy Bread",
+  "what": "The Bard, stuffed with mozzarella and Provo-nello",
+  "price": "$12",
+  "cents": 1200,
+  "img": "hr/stuffedcheezybread",
+  "section": "appetizers",
+  "opts": {}
+ },
+ "pie-stuffed-jalape-o-bacon": {
+  "id": "pie-stuffed-jalape-o-bacon",
+  "kind": "Bread",
+  "name": "Stuffed Jalapeño, Bacon",
+  "what": "Stuffed with cheese, bacon and pickled jalapeños",
+  "price": "$14",
+  "cents": 1400,
+  "img": "hr/stuffedjalapenobread",
+  "section": "appetizers",
+  "opts": {}
+ },
+ "pie-stuffed-spinach-goat": {
+  "id": "pie-stuffed-spinach-goat",
+  "kind": "Bread",
+  "name": "Stuffed Spinach, Goat",
+  "what": "Stuffed with cheese, goat cheese and spinach",
+  "price": "$14",
+  "cents": 1400,
+  "img": "hr/stuffedspinachbread",
+  "section": "appetizers",
+  "opts": {}
+ },
+ "pie-individual-salad": {
+  "id": "pie-individual-salad",
+  "kind": "Green room",
+  "name": "Individual Salad",
+  "what": "Seasonal greens, green onion, cherry tomatoes, 1 dressing. Feeds 1–2",
+  "price": "$6",
+  "cents": 600,
+  "img": "salad",
+  "section": "salads",
+  "opts": {}
+ },
+ "pie-family-salad": {
+  "id": "pie-family-salad",
+  "kind": "Green room",
+  "name": "Family Salad",
+  "what": "The same, to share. Feeds 3–4",
+  "price": "$10",
+  "cents": 1000,
+  "img": "salad",
+  "section": "salads",
+  "opts": {}
+ },
+ "pie-epic-dips": {
+  "id": "pie-epic-dips",
+  "kind": "Dips",
+  "name": "Epic Dips",
+  "what": "Much Ado red, Benedick white garlic, Beatrice pesto, hot honey, salsa Parmesan, Don Rancho garlic ranch, jalapeño ranch, ranch",
+  "price": "$1–$3",
+  "cents": null,
+  "img": "p20230429",
+  "section": "epicdips",
+  "opts": {}
+ }
+}
