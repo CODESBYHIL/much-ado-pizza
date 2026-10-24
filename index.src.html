@@ -148,6 +148,32 @@ section { padding-block: clamp(96px, 12vw, 200px); }
 .rows a:hover .arr { transform: translateX(4px); }
 .menu .note { font-size: var(--step-small); color: var(--muted); margin-top: -40px; }
 
+/* ---------- menu extras: spotlight cards, filters, tags, order again ---------- */
+.spots-band { margin-top: clamp(56px, 6vw, 96px); }
+.spots-band h3 { font-size: var(--step-lead); letter-spacing: -0.02em; line-height: 1.2; }
+.spots { list-style: none; margin: 20px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.spots a { display: grid; grid-template-columns: 112px 1fr; gap: 18px; align-items: start; text-decoration: none; padding: 14px; background: var(--surface); transition: background-color 180ms var(--ease-out); }
+.spots a:hover { background: #ebebeb; }
+.spots img { width: 112px; aspect-ratio: 4 / 5; object-fit: cover; }
+.spots b { display: block; font-weight: 500; font-size: var(--step-body); }
+.spots a:hover b { color: var(--accent); }
+.spots .what { display: block; margin-top: 4px; font-size: var(--step-small); color: var(--muted); }
+.spots .price { display: block; margin-top: 10px; font-weight: 500; }
+.spots .arr { color: var(--accent); }
+.menu .body { margin-top: clamp(56px, 6vw, 96px); }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; }
+.filters button { min-height: 44px; padding: 0 16px; border: 0; background: var(--surface); color: var(--ink); font: 500 var(--step-small)/1 var(--font); cursor: pointer; transition: background-color 140ms var(--ease-out); }
+.filters button:hover { background: #e8e8e8; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.rows .tag { margin-left: 10px; font-size: var(--step-small); font-weight: 500; line-height: 1; color: var(--accent); white-space: nowrap; }
+.again { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: 0 0 20px; padding: 14px 16px; background: var(--surface); font-size: var(--step-small); }
+.again b { font-weight: 500; }
+.again button { border: 0; background: none; padding: 8px 0; color: var(--accent); font: 500 var(--step-small)/1 var(--font); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.meal { display: grid; grid-template-columns: 56px 1fr auto; gap: 14px; align-items: center; padding: 14px; background: var(--surface); }
+.meal img { width: 56px; height: 56px; object-fit: cover; }
+.meal small { display: block; color: var(--muted); font-size: var(--step-small); }
+.meal button { border: 0; background: var(--ink); color: var(--bg); min-height: 40px; padding: 0 14px; font: 500 var(--step-small)/1 var(--font); cursor: pointer; }
+
 /* ---------- proof: names running off the edges ---------- */
 .proof { padding: 0; }
 .band { background: var(--field-1); color: var(--field-1-ink); height: 34vh; min-height: 220px; display: flex; align-items: center; overflow: clip; }
@@ -165,6 +191,43 @@ section { padding-block: clamp(96px, 12vw, 200px); }
 .proof .say .say-r { grid-column: 7 / 13; }
 .proof .badges { grid-column: 1 / 6; display: flex; gap: 20px; margin-top: 28px; align-items: center; }
 .proof .badges img { height: 92px; width: auto; }
+.proof .yelp { display: inline-flex; align-items: baseline; gap: 8px; margin-top: 24px; text-decoration: none; font-size: var(--step-body); }
+.proof .yelp b { font-weight: 800; font-size: var(--step-lead); }
+.proof .yelp:hover { color: var(--accent); }
+.proof .yelp .arr { color: var(--accent); }
+
+/* ---------- gift cards ---------- */
+.gift { padding-block: clamp(96px, 12vw, 200px) 0; }
+.gift h2 { grid-column: 1 / 7; font-size: var(--step-head); }
+.gift .gift-r { grid-column: 8 / 13; align-self: end; }
+.gift p { font-size: var(--step-lead); line-height: 1.3; letter-spacing: -0.01em; }
+.amts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 28px; }
+.amt { display: grid; place-items: center; min-height: clamp(84px, 8vw, 120px); background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 800; font-size: clamp(1.75rem, 1rem + 2vw, 3rem); letter-spacing: -0.03em; transition: background-color 180ms var(--ease-out), transform 180ms var(--ease-out); }
+.amt:hover { background: #a91912; transform: translateY(-2px); }
+
+/* ---------- instagram strip ---------- */
+.gram { padding-bottom: 0; }
+.gram-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; padding: 0 var(--m); }
+.gram-head h2 { font-size: var(--step-head); }
+.gram-head a { font-weight: 500; text-underline-offset: 4px; padding-bottom: 0.5em; }
+.gram-head .arr { color: var(--accent); }
+.gram-row { list-style: none; margin: 40px 0 0; padding: 0; display: grid; grid-template-columns: repeat(6, 1fr); }
+.gram-row a { display: block; aspect-ratio: 1; overflow: clip; }
+.gram-row img { width: 100%; height: 100%; object-fit: cover; transition: transform 500ms var(--ease-out); }
+.gram-row a:hover img { transform: scale(1.06); }
+
+/* ---------- email and text signup ---------- */
+.join { background: var(--surface); padding: clamp(80px, 9vw, 140px) var(--m); margin-bottom: clamp(96px, 12vw, 200px); }
+.join .join-l { grid-column: 1 / 6; }
+.join h2 { font-size: var(--step-head); }
+.join .join-l p { margin-top: 24px; font-size: var(--step-lead); line-height: 1.3; letter-spacing: -0.01em; max-width: 28ch; }
+.join-f { grid-column: 7 / 13; display: flex; flex-direction: column; gap: 18px; align-self: end; }
+.join .field input { background: var(--bg); border-color: var(--bg); }
+.check { display: grid; grid-template-columns: 24px 1fr; gap: 12px; align-items: start; font-size: var(--step-small); color: var(--muted); cursor: pointer; }
+.check input { width: 22px; height: 22px; margin: 1px 0 0; accent-color: var(--ink); }
+.join-f .btn { align-self: start; }
+.join-said { min-height: 1.5em; font-weight: 500; }
+.join-said.err { color: var(--accent); }
 
 /* ---------- catering: the idea again, inverted ---------- */
 .cater { background: var(--field-1); color: var(--field-1-ink); display: flex; flex-direction: column; justify-content: space-between; padding-bottom: clamp(48px, 6vw, 96px); margin-top: clamp(96px, 12vw, 200px); }
@@ -398,6 +461,16 @@ legend small { font-weight: 400; color: var(--muted); }
   .person figure { width: 72%; }
   .person:nth-child(even) figure { margin-left: auto; }
   .person .side { margin-top: 20px; font-size: 19px; }
+  .spots { grid-template-columns: 1fr; gap: 10px; }
+  .gift h2, .join h2, .gram-head h2 { font-size: 11vw; }
+  .gift .grid, .join .grid { display: block; }
+  .gift .gift-r { margin-top: 24px; }
+  .gift p, .join .join-l p { font-size: 19px; }
+  .gram-head { display: block; padding: 0 16px; }
+  .gram-head a { display: inline-block; margin-top: 12px; }
+  .gram-row { grid-template-columns: repeat(3, 1fr); }
+  .join { padding: 64px 16px; }
+  .join-f { margin-top: 32px; }
   .visit .where { display: block; padding: 0 16px; }
   .visit h2 { font-size: 11vw; }
   .visit dl { grid-template-columns: 1fr; gap: 24px; margin-top: 32px; }
@@ -461,6 +534,10 @@ legend small { font-weight: 400; color: var(--muted); }
       <h2 id="menu-h" data-reveal><span class="l1">Specialty</span> sourdough pizza.</h2>
       <p class="lede" data-reveal style="--i:1">{{COUNT}} pies named for the plays, on Kira’s slow-fermented crust. No sugar, no preservatives, a long cold rise.</p>
     </div>
+    <div class="spots-band">
+      <h3>Now playing, for a limited time</h3>
+      <ul class="spots">{{SPOTS}}</ul>
+    </div>
     <div class="body grid">
       <div class="pics only-phone">
         <figure class="pic" data-reveal><div class="shot"><img src="web/polish2022.jpg" alt="Ham Let: ham, prosciutto, pineapple and arugula on sourdough" width="1400" height="1121" loading="lazy"></div><figcaption>Ham Let, $32</figcaption></figure>
@@ -476,7 +553,14 @@ legend small { font-weight: 400; color: var(--muted); }
       </div>
       <div class="tables">
         <p class="tag">Every crust is Kira’s slow-fermented sourdough. One size, two styles: the Original 14-inch round or the Marlowe 13×9 rectangle. Each feeds 2 or 3. Tap any pie to add it to your order.</p>
-        <ol class="rows">
+        <p class="again" id="again" hidden></p>
+        <div class="filters" role="group" aria-label="Show pies">
+          <button type="button" aria-pressed="true" data-f="all">All {{COUNT}}</button>
+          <button type="button" aria-pressed="false" data-f="veg">Vegetarian {{VEG}}</button>
+          <button type="button" aria-pressed="false" data-f="meat">Meat {{MEAT}}</button>
+          <button type="button" aria-pressed="false" data-f="tag">Popular and award-winning</button>
+        </div>
+        <ol class="rows" id="pies">
           {{PIES}}
         </ol>
         <p class="tag">The supporting cast</p>
@@ -501,6 +585,7 @@ legend small { font-weight: 400; color: var(--muted); }
           <img src="img/yelp25.png" alt="Yelp Top 100 Places to Eat 2025" width="204" height="207" loading="lazy">
           <img src="img/boba.webp" alt="SF Gate Best of Bay Area 2026" width="300" height="300" loading="lazy">
         </div>
+        <a class="yelp" data-reveal style="--i:2" href="https://www.yelp.com/biz/much-ado-about-pizza-pleasanton-2">Rated <b class="num">4.7</b> out of 5 from 290 reviews on Yelp <span class="arr" aria-hidden="true">→</span></a>
       </div>
       <div data-reveal style="--i:2" class="say-r"><p>Kira and Mark Zabrowski compete on the U.S. Pizza Team. They placed fourth in non-traditional pizza at the International Pizza Challenge in Las Vegas, took third places at the California state competition, and made the cover of PMQ, the pizza trade’s own magazine.</p>
       <button class="pause" type="button" id="pause" aria-pressed="false">Pause the moving list</button></div>
@@ -519,6 +604,16 @@ legend small { font-weight: 400; color: var(--muted); }
       </p>
       <a class="btn" id="cater-btn" href="mailto:muchadoaboutpizza@gmail.com?subject=Catering%20order">Plan the Catering <span class="arr" aria-hidden="true">→</span></a>
     </form>
+  </section>
+
+  <section class="gift wrap" id="gifts" aria-labelledby="gift-h">
+    <div class="grid">
+      <h2 id="gift-h" data-reveal>Give someone a pie night.</h2>
+      <div class="gift-r" data-reveal style="--i:1">
+        <p>Gift cards go out by email with your note, and work on any pie, bread or salad.</p>
+        <div class="amts">{{GIFTS}}</div>
+      </div>
+    </div>
   </section>
 
   <section class="company" id="story" aria-labelledby="story-h">
@@ -547,6 +642,27 @@ legend small { font-weight: 400; color: var(--muted); }
       </div>
     </div>
     <div class="tail"></div>
+  </section>
+
+  <section class="gram" aria-labelledby="gram-h">
+    <div class="gram-head"><h2 id="gram-h">Fresh out of the oven</h2><a href="https://www.instagram.com/muchadoaboutpizza/">Follow @muchadoaboutpizza on Instagram <span class="arr" aria-hidden="true">→</span></a></div>
+    <ul class="gram-row">{{GRAM}}</ul>
+  </section>
+
+  <section class="join" id="join" aria-labelledby="join-h">
+    <div class="grid">
+      <div class="join-l">
+        <h2 id="join-h">First to the next pie.</h2>
+        <p>New seasonal pies and closure news, by email or text, about twice a month.</p>
+      </div>
+      <form class="join-f" id="join-form" novalidate>
+        <label class="field">Email<input name="email" type="email" autocomplete="email" maxlength="120" placeholder="you@example.com"></label>
+        <label class="field">Mobile number <small>Optional, for texts</small><input name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="20"></label>
+        <label class="check"><input type="checkbox" name="texts"><span>Text me too. I agree to get recurring automated marketing texts from Much Ado About Pizza at this number. Consent isn’t needed to buy anything. Up to 4 messages a month; message and data rates may apply. Reply STOP to cancel, HELP for help.</span></label>
+        <button class="btn" type="submit">Sign me up <span class="arr" aria-hidden="true">→</span></button>
+        <p class="join-said" id="join-said" aria-live="polite"></p>
+      </form>
+    </div>
   </section>
 
   <section class="visit" id="visit" aria-labelledby="visit-h">
@@ -672,11 +788,15 @@ legend small { font-weight: 400; color: var(--muted); }
   const save = () => { try { localStorage.setItem('mado-bag', JSON.stringify(cart)); } catch (e) {} };
   const total = () => cart.reduce((n, l) => n + MENU[l.id].cents * l.qty, 0);
   const count = () => cart.reduce((n, l) => n + l.qty, 0);
-  const optText = (o) => [o.style, o.sauce, (o.toppings || []).join(', '), o.dip && `with ${o.dip} dip`, o.note && `“${o.note}”`].filter(Boolean).join(' · ');
+  const optText = (o) => [o.to && `For ${o.to}, ${o.toEmail}`, o.style, o.sauce, (o.toppings || []).join(', '), o.dip && `with ${o.dip} dip`, (o.note || o.message) && `“${o.note || o.message}”`].filter(Boolean).join(' · ');
   const pic = (it, w) => it.img ? `<img src="web/${it.img}-s.jpg" alt="" width="${w}" height="${w}">` : '';
 
-  let stripeKey = null;
-  if (location.protocol.startsWith('http')) fetch('/api/config').then((r) => r.ok ? r.json() : null).then((c) => { stripeKey = (c && c.publishableKey) || null; }).catch(() => {});
+  let stripeKey = null, hasServer = false;
+  if (location.protocol.startsWith('http')) fetch('/api/config').then((r) => r.ok ? r.json() : null).then((c) => { hasServer = !!c; stripeKey = (c && c.publishableKey) || null; }).catch(() => {});
+  // email and text signups go to server.mjs; on a static host they are only shown as a demo
+  const signup = (data) => hasServer
+    ? fetch('/api/signup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).then((r) => r.ok)
+    : Promise.resolve(null);
 
   // the item sheet: photo, choices, how many, add
   const sheet = document.getElementById('sheet'), shOpts = document.getElementById('sh-opts'), shAdd = document.getElementById('sh-add');
@@ -698,7 +818,10 @@ legend small { font-weight: 400; color: var(--muted); }
     if (o.sauce) h += group('sauce', 'Sauce', o.sauce);
     if (o.toppings) h += group('toppings', 'Toppings <small>up to 5</small>', o.toppings, 'checkbox');
     if (o.dip) h += `<label class="field">Your dip, included<select name="dip">${o.dip.map((d) => `<option>${esc(d)}</option>`).join('')}</select></label>`;
-    if (it.cents) h += `<label class="field">Notes for the kitchen <small>Optional. Extra dips are paid at pickup.</small><input name="note" maxlength="120" autocomplete="off" placeholder="Well done, extra basil…"></label>`;
+    if (o.gift) h += `<label class="field">Who it’s for<input name="to" required maxlength="60" autocomplete="off"></label>
+      <label class="field">Their email<input name="toEmail" type="email" required maxlength="120" autocomplete="off"></label>
+      <label class="field">Your note <small>Optional</small><input name="message" maxlength="120" autocomplete="off" placeholder="Happy birthday! Dinner’s on me."></label>`;
+    else if (it.cents) h += `<label class="field">Notes for the kitchen <small>Optional. Extra dips are paid at pickup.</small><input name="note" maxlength="120" autocomplete="off" placeholder="Well done, extra basil…"></label>`;
     else h += `<p class="ask">Each dip is $1 to $3. Ask for the ones you want in the kitchen notes on any pie or bread, and pay for them at pickup.</p>`;
     shOpts.innerHTML = h;
     shBuy.hidden = !it.cents;
@@ -717,9 +840,15 @@ legend small { font-weight: 400; color: var(--muted); }
     ['style', 'sauce', 'dip'].forEach((k) => { if (f.get(k)) opts[k] = f.get(k); });
     if (f.getAll('toppings').length) opts.toppings = f.getAll('toppings');
     const note = (f.get('note') || '').trim(); if (note) opts.note = note;
+    if (cur.opts.gift) {
+      const form = e.target;
+      if (!form.elements.to.value.trim() || !form.elements.toEmail.value || !form.elements.toEmail.checkValidity()) { form.reportValidity(); return; }
+      opts.to = form.elements.to.value.trim(); opts.toEmail = form.elements.toEmail.value.trim();
+      const m = form.elements.message.value.trim(); if (m) opts.message = m;
+    }
     const key = JSON.stringify(opts), same = cart.find((l) => l.id === cur.id && JSON.stringify(l.opts) === key);
     if (same) same.qty = Math.min(20, same.qty + qty); else cart.push({ id: cur.id, qty, opts });
-    save(); sheet.close(); paintBag(true);
+    save(); sheet.close(); paintBag(true); if (bag.open && step === 'cart') drawCart();
     said.textContent = `Added ${cur.name}. ${count()} in your order, ${money(total())}.`;
   });
 
@@ -764,12 +893,17 @@ legend small { font-weight: 400; color: var(--muted); }
   const drawCart = () => {
     bagH.textContent = 'Your order';
     if (!cart.length) {
-      body.innerHTML = `<div class="empty"><p>Nothing in your order yet.</p><button class="btn" type="button" data-menu>See the menu <span class="arr" aria-hidden="true">→</span></button></div>`;
+      const lastOrder = last();
+      body.innerHTML = `<div class="empty"><p>Nothing in your order yet.</p><button class="btn" type="button" data-menu>See the menu <span class="arr" aria-hidden="true">→</span></button></div>`
+        + (lastOrder ? `<div class="meal"><span></span><span><b>Your last order</b><small>${esc(lastOrder.map((l) => `${l.qty}× ${MENU[l.id].name}`).join(', '))}</small></span><button type="button" data-again>Order again</button></div>` : '');
       foot.hidden = true; return;
     }
     body.innerHTML = `<ul class="bag-lines">${cart.map((l, i) => { const it = MENU[l.id]; return `<li class="line-item"><span class="thumb">${pic(it, 56)}</span>
       <span><b translate="no">${esc(it.name)}</b><small>${esc(optText(l.opts))}</small></span><span class="num">${money(it.cents * l.qty)}</span>
       <span class="qty" role="group" aria-label="${esc(it.name)}, how many"><button type="button" data-l="${i}" data-d="-1" aria-label="${l.qty > 1 ? 'One fewer' : 'Remove'}">−</button><output>${l.qty}</output><button type="button" data-l="${i}" data-d="1" aria-label="One more">+</button></span></li>`; }).join('')}</ul>`;
+    const has = (sec) => cart.some((l) => MENU[l.id].section === sec);
+    const add = has('pizzas') && (!has('appetizers') ? MENU['pie-cheesy-bard-bread'] : !has('salads') ? MENU['pie-family-salad'] : null);
+    if (add) body.insertAdjacentHTML('beforeend', `<div class="meal">${pic(add, 56)}<span><b>Make it a meal</b><small>${esc(add.name)}, ${add.price}</small></span><button type="button" data-meal="${add.id}">Add</button></div>`);
     foot.hidden = false;
     foot.innerHTML = `<p class="sum"><span>Subtotal</span><span class="num">${money(total())}</span></p><p class="fine">Sales tax is added at payment. Pickup at 1991 Santa Rita Rd, Suite E.</p>
       <button class="btn" type="button" data-next="details">Choose a pickup time <span class="arr" aria-hidden="true">→</span></button>`;
@@ -781,13 +915,18 @@ legend small { font-weight: 400; color: var(--muted); }
       <label class="field">Name for the order<input name="name" required maxlength="60" autocomplete="name" value="${esc(who.name)}"></label>
       <label class="field">Phone <small>Only to reach you about this order.</small><input name="phone" type="tel" required maxlength="20" autocomplete="tel" inputmode="tel" value="${esc(who.phone)}"></label>
       <label class="field">Pickup time<select name="pickup" required>${days.map((d) => `<optgroup label="${d}">${ss.filter((x) => x.day === d).map((x) => `<option value="${x.v}"${x.v === who.pickup ? ' selected' : ''}>${x.t}</option>`).join('')}</optgroup>`).join('')}</select>
-      <small>Before 4pm skips the dinner rush. Carry-out only.</small></label></form>`;
+      <small>Before 4pm skips the dinner rush. Carry-out only.</small></label>
+      <label class="check"><input type="checkbox" name="news"${who.news ? ' checked' : ''}><span>Email me about new seasonal pies.</span></label>
+      <label class="check"><input type="checkbox" name="texts"${who.texts ? ' checked' : ''}><span>Text me about new pies. Recurring automated marketing texts to this number, up to 4 a month. Consent isn’t needed to buy. Msg and data rates may apply. Reply STOP to cancel.</span></label>
+      <label class="field" id="who-email"${who.news ? '' : ' hidden'}>Email<input name="email" type="email" maxlength="120" autocomplete="email" value="${esc(who.email || '')}"></label></form>`;
+    body.querySelector('[name=news]').addEventListener('change', (e) => { body.querySelector('#who-email').hidden = !e.target.checked; });
     foot.hidden = false;
     foot.innerHTML = `<p class="sum"><span>Subtotal</span><span class="num">${money(total())}</span></p><button class="btn" type="submit" form="who">Go to payment <span class="arr" aria-hidden="true">→</span></button>`;
     body.querySelector('#who').addEventListener('submit', (e) => {
       e.preventDefault(); const f = new FormData(e.target), tel = e.target.elements.phone;
       if (f.get('phone').replace(/\D/g, '').length < 10) { tel.setCustomValidity('Enter a 10-digit phone number.'); tel.reportValidity(); tel.addEventListener('input', () => tel.setCustomValidity(''), { once: true }); return; }
-      who = { name: f.get('name').trim(), phone: f.get('phone').trim(), pickup: f.get('pickup') };
+      if (f.get('news') && (!f.get('email') || !e.target.elements.email.checkValidity())) { e.target.elements.email.setCustomValidity(f.get('email') ? '' : 'Add your email, or untick the email box.'); e.target.elements.email.reportValidity(); e.target.elements.email.setCustomValidity(''); return; }
+      who = { name: f.get('name').trim(), phone: f.get('phone').trim(), pickup: f.get('pickup'), news: !!f.get('news'), texts: !!f.get('texts'), email: (f.get('email') || '').trim() };
       go('pay');
     });
   };
@@ -820,7 +959,9 @@ legend small { font-weight: 400; color: var(--muted); }
   };
   const done = ({ ref, paid }) => {
     drop(); const sum = money(total()), first = who.name.split(' ')[0];
-    cart = []; save(); paintBag();
+    try { localStorage.setItem('mado-last', JSON.stringify(cart.filter((l) => !l.opts.to))); } catch (e) {}
+    if (who.news || who.texts) signup({ email: who.news ? who.email : '', phone: who.texts ? who.phone : '', texts: who.texts, source: 'checkout' });
+    cart = []; save(); paintBag(); showAgain();
     step = 'done'; back.hidden = true; document.getElementById('bag-steps').hidden = true; bagH.textContent = 'Order in';
     body.innerHTML = `<div class="done"><h3>Thank you, ${esc(first)}.</h3><p class="ref">Order ${esc(ref)} · ${esc(slotText())}</p>
       <p>Pick it up at 1991 Santa Rita Rd, Suite E, Mission Plaza. Say the name on the order at the counter.</p>
@@ -828,6 +969,40 @@ legend small { font-weight: 400; color: var(--muted); }
     foot.hidden = false; foot.innerHTML = `<button class="btn" type="button" data-close>Done</button>`;
     said.textContent = `Order ${ref} placed for ${slotText()}.`;
   };
+  const last = () => { try { const l = JSON.parse(localStorage.getItem('mado-last')); return Array.isArray(l) && l.length && l.every((x) => MENU[x.id] && MENU[x.id].cents) ? l : null; } catch (e) { return null; } };
+  const reorder = () => { (last() || []).forEach((l) => cart.push(JSON.parse(JSON.stringify(l)))); save(); paintBag(true); };
+  const again = document.getElementById('again');
+  const showAgain = () => {
+    const l = last(); again.hidden = !l || cart.length > 0; if (again.hidden) return;
+    again.innerHTML = `<span>Welcome back. Last time: <b>${esc(l.map((x) => `${x.qty}× ${MENU[x.id].name}`).join(', '))}</b></span><button type="button">Order it again</button>`;
+    again.querySelector('button').addEventListener('click', () => { reorder(); showAgain(); openBag(); });
+  };
+
+  // menu filters: all, vegetarian, meat, or the tagged favourites
+  const fbtns = document.querySelectorAll('.filters button');
+  fbtns.forEach((b) => b.addEventListener('click', () => {
+    fbtns.forEach((x) => x.setAttribute('aria-pressed', x === b));
+    document.querySelectorAll('#pies li').forEach((li) => {
+      const d = li.dataset.diet, f = b.dataset.f;
+      li.hidden = f === 'all' ? false : f === 'tag' ? !li.querySelector('.tag') : !(d === f || d === 'both');
+    });
+  }));
+
+  // email and text signup
+  const join = document.getElementById('join-form'), joinSaid = document.getElementById('join-said');
+  join.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = join.elements.email.value.trim(), phone = join.elements.phone.value.trim(), texts = join.elements.texts.checked;
+    const say = (t, bad) => { joinSaid.textContent = t; joinSaid.classList.toggle('err', !!bad); };
+    if (email && !join.elements.email.checkValidity()) return say('That email doesn’t look right.', true);
+    if (texts && phone.replace(/\D/g, '').length < 10) return say('Add a 10-digit mobile number for texts.', true);
+    if (!email && !texts) return say('Add your email, or a mobile number and tick “Text me too”.', true);
+    const ok = await signup({ email, phone: texts ? phone : '', texts, source: 'signup' });
+    if (ok === false) return say('That didn’t go through. Try again in a minute.', true);
+    join.reset();
+    say(ok ? 'You’re on the list. Thanks!' : 'Demo only: on the live site this adds you to the list.');
+  });
+
   const openBag = () => { if (step === 'done') step = 'cart'; go(step === 'pay' ? 'pay' : step); bag.showModal(); paintBag(); };
   bag.addEventListener('close', () => { drop(); if (step === 'pay') step = 'details'; if (step === 'done') step = 'cart'; paintBag(); });
   bag.addEventListener('click', (e) => {
@@ -837,6 +1012,11 @@ legend small { font-weight: 400; color: var(--muted); }
       if (l.qty < 1) cart.splice(+t.dataset.l, 1); else l.qty = Math.min(20, l.qty);
       save(); paintBag(); drawCart();
     } else if (t.dataset.next) go(t.dataset.next);
+    else if (t.dataset.meal) {
+      const it = MENU[t.dataset.meal];
+      if (Object.keys(it.opts).length) openItem(it.id);
+      else { cart.push({ id: it.id, qty: 1, opts: {} }); save(); paintBag(); drawCart(); }
+    } else if (t.dataset.again !== undefined) { reorder(); drawCart(); }
     else if (t.hasAttribute('data-menu')) { bag.close(); document.getElementById('menu').scrollIntoView({ behavior: 'smooth' }); }
   });
   back.addEventListener('click', () => go(step === 'pay' ? 'details' : 'cart'));
@@ -854,7 +1034,7 @@ legend small { font-weight: 400; color: var(--muted); }
     const row = document.querySelector(`${f.getAttribute('href')} a[data-item]`); if (!row) return;
     e.preventDefault(); openItem(row.dataset.item);
   }));
-  paintBag();
+  paintBag(); showAgain();
 
   // live status, in Pleasanton time: open now, or how long left to beat the 4pm rush
   const status = document.getElementById('status');

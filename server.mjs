@@ -6,6 +6,7 @@
 //
 // Without the keys it still serves the site, and the bag runs in demo mode. Paid orders are appended to
 // orders.jsonl; in production, point a Stripe webhook (checkout.session.completed) at the kitchen instead.
+// Email and text signups are appended to signups.jsonl, with the consent wording they agreed to.
 import { createServer } from 'node:http';
 import { appendFile, readFile } from 'node:fs/promises';
 import { extname, join, normalize, sep } from 'node:path';
@@ -18,6 +19,9 @@ const MENU = JSON.parse(await readFile(join(ROOT, 'menu.json'), 'utf8'));
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.png': 'image/png',
   '.jpg': 'image/jpeg', '.webp': 'image/webp', '.gif': 'image/gif', '.mp4': 'video/mp4', '.svg': 'image/svg+xml' };
 const recorded = new Set();
+const EMAIL = /^[^\s@]{1,64}@[^\s@]{1,190}\.[^\s@]{2,}$/;
+// the exact wording shown next to the text box on the page; stored with each text signup as the record of consent
+const SMS_CONSENT = 'Recurring automated marketing texts from Much Ado About Pizza, up to 4 a month. Consent not required to buy. Msg and data rates may apply. Reply STOP to cancel, HELP for help.';
 
 const stripe = async (path, params, method = 'POST') => {
   const r = await fetch('https://api.stripe.com/v1/' + path, { method,
@@ -36,7 +40,12 @@ const line = (l) => {
   for (const k of ['style', 'sauce', 'dip']) if (o[k] !== undefined && !it.opts[k]?.includes(o[k])) throw new Error(`Bad ${k}`);
   if (o.toppings !== undefined && (!Array.isArray(o.toppings) || o.toppings.length > 5 || !o.toppings.every((t) => it.opts.toppings?.includes(t)))) throw new Error('Bad toppings');
   if (o.note !== undefined && (typeof o.note !== 'string' || o.note.length > 120)) throw new Error('Bad note');
-  const desc = [o.style, o.sauce, o.toppings?.join(', '), o.dip && `with ${o.dip} dip`, o.note && `Note: ${o.note}`].filter(Boolean).join(' · ');
+  if (it.opts.gift) {
+    if (typeof o.to !== 'string' || !o.to.trim() || o.to.length > 60) throw new Error('Gift card needs a name');
+    if (typeof o.toEmail !== 'string' || !EMAIL.test(o.toEmail)) throw new Error('Gift card needs an email');
+    if (o.message !== undefined && (typeof o.message !== 'string' || o.message.length > 120)) throw new Error('Bad gift note');
+  } else if (o.to !== undefined || o.toEmail !== undefined || o.message !== undefined) throw new Error('Bad options');
+  const desc = [o.to && `Gift for ${o.to} <${o.toEmail}>`, o.message && `Note: ${o.message}`, o.style, o.sauce, o.toppings?.join(', '), o.dip && `with ${o.dip} dip`, o.note && `Note: ${o.note}`].filter(Boolean).join(' · ');
   return { name: it.name, desc, cents: it.cents, qty: l.qty };
 };
 
@@ -62,6 +71,17 @@ const api = {
     });
     const s = await stripe('checkout/sessions', params);
     return { id: s.id, clientSecret: s.client_secret };
+  },
+
+  'POST /api/signup': async (b) => {
+    const email = typeof b.email === 'string' ? b.email.trim() : '', phone = typeof b.phone === 'string' ? b.phone.trim() : '';
+    if (email && (email.length > 120 || !EMAIL.test(email))) throw new Error('Bad email');
+    if (b.texts && (phone.replace(/\D/g, '').length < 10 || phone.length > 20)) throw new Error('Bad phone');
+    if (!email && !b.texts) throw new Error('Nothing to sign up');
+    const row = { at: new Date().toISOString(), email: email || null, phone: b.texts ? phone : null, texts: !!b.texts,
+      consent: b.texts ? SMS_CONSENT : null, source: b.source === 'checkout' ? 'checkout' : 'signup' };
+    await appendFile(join(ROOT, 'signups.jsonl'), JSON.stringify(row) + '\n');
+    return { ok: true };
   },
 
   'GET /api/order': async (_, req, url) => {

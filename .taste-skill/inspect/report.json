@@ -1,6 +1,6 @@
 {
  "url": "index.html",
- "at": "2026-10-24T06:20:13.793Z",
+ "at": "2026-10-24T06:41:13.553Z",
  "allow": [],
  "viewports": [
   {
@@ -10,22 +10,22 @@
    "screens": 12,
    "filled": [
     1,
-    0.47,
-    0.39,
-    0.38,
-    0.64,
-    0.68,
+    0.57,
+    0.37,
+    0.41,
+    0.36,
+    0.49,
+    0.76,
     0.29,
-    0.28,
-    0.38,
     0.29,
-    0.33,
-    0.87
+    0.41,
+    0.27,
+    0.49
    ],
    "motion": {
-    "elements": 36,
+    "elements": 39,
     "css": 16,
-    "transitions": 20,
+    "transitions": 23,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -36,19 +36,19 @@
      "h": 900
     },
     "page": {
-     "height": 10900,
-     "screens": 12.1,
-     "words": 893,
-     "img": 73,
+     "height": 13176,
+     "screens": 14.6,
+     "words": 1096,
+     "img": 82,
      "video": 0,
      "canvas": 0,
      "svg": 1,
-     "sections": 5,
+     "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 40,
+     "realPictures": 46,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
@@ -84,7 +84,7 @@
      "align": "center",
      "position": "center",
      "widthRatio": 0.49,
-     "top": 305,
+     "top": 346,
      "tag": "h1",
      "kind": "heading"
     },
@@ -113,7 +113,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.49,
-      "top": 305,
+      "top": 346,
       "tag": "h1",
       "kind": "heading"
      },
@@ -134,7 +134,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.55,
-      "top": 900,
+      "top": 941,
       "tag": "h2",
       "kind": "heading"
      },
@@ -155,7 +155,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.39,
-      "top": 1591,
+      "top": 1928,
       "tag": "h3",
       "kind": "heading"
      },
@@ -176,7 +176,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -197,7 +197,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -218,7 +218,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -239,7 +239,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -260,7 +260,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -281,7 +281,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -302,7 +302,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -323,7 +323,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -344,7 +344,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -365,7 +365,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -386,7 +386,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -407,7 +407,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -428,7 +428,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -449,7 +449,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 4321,
+      "top": 4765,
       "tag": "span",
       "kind": "heading"
      },
@@ -470,8 +470,92 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.96,
-      "top": 4941,
+      "top": 5449,
       "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Give someone a pie night.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 6151,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$25",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 44.8,
+      "vw": 3.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 6247,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "$50",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 44.8,
+      "vw": 3.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 6247,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "$100",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 44.8,
+      "vw": 3.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 6247,
+      "tag": "a",
       "kind": "heading"
      },
      {
@@ -491,7 +575,49 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.96,
-      "top": 5644,
+      "top": 6535,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fresh out of the oven",
+      "words": 5,
+      "chars": 21,
+      "lines": 1,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 10338,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "First to the next pie.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 10831,
       "tag": "h2",
       "kind": "heading"
      },
@@ -512,7 +638,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.39,
-      "top": 9274,
+      "top": 11551,
       "tag": "h2",
       "kind": "heading"
      },
@@ -533,7 +659,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 9682,
+      "top": 11959,
       "tag": "a",
       "kind": "heading"
      },
@@ -554,7 +680,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.55,
-      "top": 10114,
+      "top": 12391,
       "tag": "h2",
       "kind": "heading"
      },
@@ -575,13 +701,13 @@
       "align": "center",
       "position": "center",
       "widthRatio": 1,
-      "top": 10585,
+      "top": 12862,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 23,
+     "count": 29,
      "maxLines": 2,
      "over2Lines": 0,
      "statements": 1,
@@ -635,7 +761,7 @@
      "microLabelShare": 0,
      "microSamples": [],
      "upperShare": 0,
-     "centerShare": 0.04,
+     "centerShare": 0.06,
      "smallText": 0
     },
     "eyebrows": [],
@@ -651,7 +777,7 @@
      "sectionBgs": [
       {
        "color": "#111111",
-       "top": 0,
+       "top": 41,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -660,7 +786,7 @@
       },
       {
        "color": "#f4f4f4",
-       "top": 6001,
+       "top": 6892,
        "hsl": {
         "h": 0,
         "s": 0,
@@ -671,15 +797,15 @@
      "textColors": [
       {
        "color": "#141414",
-       "share": 0.73
-      },
-      {
-       "color": "#ffffff",
-       "share": 0.13
+       "share": 0.7
       },
       {
        "color": "#5e5e5e",
-       "share": 0.1
+       "share": 0.14
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
       },
       {
        "color": "#b5b5b5",
@@ -687,7 +813,7 @@
       },
       {
        "color": "#c41e17",
-       "share": 0
+       "share": 0.02
       }
      ],
      "button": {
@@ -702,10 +828,10 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 6,
+     "count": 10,
      "inHero": 3,
      "radius": 0,
-     "height": 52,
+     "height": 44,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
@@ -731,7 +857,7 @@
      "blurred": 0,
      "roundedBoxes": 0,
      "boxRadius": 0,
-     "squareMedia": 29,
+     "squareMedia": 35,
      "roundedMedia": 0,
      "mediaRadius": 0,
      "textShadow": 0,
@@ -739,7 +865,7 @@
     },
     "heroMedia": [],
     "nav": {
-     "links": 9,
+     "links": 7,
      "fixed": false,
      "height": 900,
      "floatingPill": false,
@@ -754,16 +880,16 @@
      "w": 1440,
      "h": 900
     },
-    "pageH": 10900,
+    "pageH": 13176,
     "margins": {
      "left": 32,
-     "right": 48
+     "right": 37
     },
     "sections": [
      {
       "sel": "header#top.hero",
       "tag": "header",
-      "top": 0,
+      "top": 41,
       "height": 900,
       "words": 37,
       "media": 11,
@@ -786,7 +912,7 @@
      {
       "sel": "div.opener.grid",
       "tag": "div",
-      "top": 900,
+      "top": 941,
       "height": 172,
       "words": 18,
       "media": 0,
@@ -807,11 +933,34 @@
       "pinned": false
      },
      {
+      "sel": "div.spots-band",
+      "tag": "div",
+      "top": 1200,
+      "height": 219,
+      "words": 39,
+      "media": 0,
+      "middle": 112,
+      "heading": {
+       "text": "Now playing, for a limited time",
+       "size": 26,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 90,
+      "textLeft": 32,
+      "textRight": 90,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "div.body.grid",
       "tag": "div",
-      "top": 1168,
-      "height": 3072,
-      "words": 455,
+      "top": 1505,
+      "height": 3179,
+      "words": 477,
       "media": 1,
       "middle": 24,
       "heading": {
@@ -832,11 +981,11 @@
      {
       "sel": "section.proof",
       "tag": "section",
-      "top": 4240,
-      "height": 528,
-      "words": 115,
+      "top": 4684,
+      "height": 591,
+      "words": 125,
       "media": 0,
-      "middle": 14930,
+      "middle": 14882,
       "heading": {
        "text": "Yelp Top 100, 2024",
        "size": 144,
@@ -844,8 +993,8 @@
       },
       "left": 0,
       "right": 0,
-      "textLeft": -2348,
-      "textRight": -15938,
+      "textLeft": -2396,
+      "textRight": -15890,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -855,7 +1004,7 @@
      {
       "sel": "section#catering.cater.wrap",
       "tag": "section",
-      "top": 4941,
+      "top": 5449,
       "height": 530,
       "words": 31,
       "media": 0,
@@ -876,9 +1025,32 @@
       "pinned": false
      },
      {
+      "sel": "section#gifts.gift.wrap",
+      "tag": "section",
+      "top": 5979,
+      "height": 384,
+      "words": 24,
+      "media": 0,
+      "middle": 305,
+      "heading": {
+       "text": "Give someone a pie night.",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 47,
+      "textLeft": 32,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "div.pin",
       "tag": "div",
-      "top": 5644,
+      "top": 6535,
       "height": 122,
       "words": 0,
       "media": 0,
@@ -897,7 +1069,7 @@
      {
       "sel": "div.people",
       "tag": "div",
-      "top": 6001,
+      "top": 6892,
       "height": 3100,
       "words": 152,
       "media": 4,
@@ -918,9 +1090,55 @@
       "pinned": false
      },
      {
+      "sel": "section.gram",
+      "tag": "section",
+      "top": 10165,
+      "height": 536,
+      "words": 9,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Fresh out of the oven",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#join.join",
+      "tag": "section",
+      "top": 10701,
+      "height": 677,
+      "words": 70,
+      "media": 0,
+      "middle": 276,
+      "heading": {
+       "text": "First to the next pie.",
+       "size": 88,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "section#visit.visit",
       "tag": "section",
-      "top": 9274,
+      "top": 11551,
       "height": 552,
       "words": 39,
       "media": 0,
@@ -943,7 +1161,7 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 9999,
+      "top": 12275,
       "height": 900,
       "words": 38,
       "media": 0,
@@ -966,15 +1184,27 @@
     ],
     "gaps": [
      {
-      "top": 9808,
-      "height": 292
+      "top": 9992,
+      "height": 332
+     },
+     {
+      "top": 11204,
+      "height": 336
+     },
+     {
+      "top": 12084,
+      "height": 296
+     },
+     {
+      "top": 12544,
+      "height": 272
      }
     ],
     "h1s": [
      {
       "text": "Much Ado About Pizza",
       "size": 84,
-      "top": 305,
+      "top": 346,
       "firstScreen": true
      }
     ],
@@ -982,7 +1212,7 @@
     "edges": [
      {
       "x": 32,
-      "n": 11
+      "n": 16
      },
      {
       "x": 615,
@@ -990,6 +1220,10 @@
      },
      {
       "x": 732,
+      "n": 1
+     },
+     {
+      "x": 849,
       "n": 1
      },
      {
@@ -1001,17 +1235,17 @@
       "n": 1
      }
     ],
-    "leftBlocks": 18,
+    "leftBlocks": 24,
     "bodySize": 19,
     "stage": false,
     "explains": false,
     "slivers": [],
     "voidShare": 0.04,
     "voidBox": {
-     "x": 1200,
-     "y": 660,
-     "w": 240,
-     "h": 240
+     "x": 0,
+     "y": 120,
+     "w": 60,
+     "h": 780
     }
    },
    "app": null,
@@ -1021,23 +1255,25 @@
    "width": 768,
    "height": 1024,
    "load": "load",
-   "screens": 10,
+   "screens": 12,
    "filled": [
     1,
-    0.33,
-    0.36,
-    0.34,
-    0.42,
-    0.63,
-    0.57,
-    0.36,
+    0.51,
+    0.37,
     0.31,
+    0.34,
+    0.43,
+    0.74,
+    0.41,
+    0.36,
+    0.33,
+    0.61,
     0.64
    ],
    "motion": {
-    "elements": 36,
+    "elements": 39,
     "css": 16,
-    "transitions": 20,
+    "transitions": 23,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -1048,14 +1284,14 @@
      "h": 1024
     },
     "page": {
-     "height": 10144,
-     "screens": 9.9,
-     "words": 893,
-     "img": 73,
+     "height": 12115,
+     "screens": 11.8,
+     "words": 1096,
+     "img": 82,
      "video": 0,
      "canvas": 0,
      "svg": 1,
-     "sections": 5,
+     "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
@@ -1096,7 +1332,7 @@
      "align": "center",
      "position": "center",
      "widthRatio": 0.51,
-     "top": 417,
+     "top": 477,
      "tag": "h1",
      "kind": "heading"
     },
@@ -1125,7 +1361,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.51,
-      "top": 417,
+      "top": 477,
       "tag": "h1",
       "kind": "heading"
      },
@@ -1146,7 +1382,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.54,
-      "top": 1070,
+      "top": 1130,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1167,7 +1403,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.3,
-      "top": 1478,
+      "top": 1878,
       "tag": "h3",
       "kind": "heading"
      },
@@ -1188,7 +1424,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1209,7 +1445,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.9,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1230,7 +1466,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1251,7 +1487,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1272,7 +1508,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1293,7 +1529,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1314,7 +1550,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1335,7 +1571,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1356,7 +1592,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.9,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1377,7 +1613,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.08,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1398,7 +1634,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.75,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1419,7 +1655,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.3,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1440,7 +1676,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.17,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1461,7 +1697,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.81,
-      "top": 5583,
+      "top": 6171,
       "tag": "span",
       "kind": "heading"
      },
@@ -1482,8 +1718,92 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.95,
-      "top": 6184,
+      "top": 6778,
       "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Give someone a pie night.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 7250,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$25",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 31.4,
+      "vw": 4.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 7367,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "$50",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 31.4,
+      "vw": 4.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 7367,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "$100",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 31.4,
+      "vw": 4.1,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.12,
+      "top": 7367,
+      "tag": "a",
       "kind": "heading"
      },
      {
@@ -1503,7 +1823,49 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.95,
-      "top": 6655,
+      "top": 7547,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Fresh out of the oven",
+      "words": 5,
+      "chars": 21,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 9929,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "First to the next pie.",
+      "words": 5,
+      "chars": 22,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 10287,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1524,7 +1886,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 8941,
+      "top": 10912,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1545,7 +1907,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 9392,
+      "top": 11363,
       "tag": "a",
       "kind": "heading"
      },
@@ -1566,7 +1928,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.54,
-      "top": 9636,
+      "top": 11607,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1587,13 +1949,13 @@
       "align": "center",
       "position": "center",
       "widthRatio": 1,
-      "top": 9974,
+      "top": 11945,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 23,
+     "count": 29,
      "maxLines": 2,
      "over2Lines": 0,
      "statements": 1,
@@ -1615,13 +1977,14 @@
       15,
       18,
       23,
+      31,
       33,
       47,
       58,
       77,
       178
      ],
-     "sizeCount": 9,
+     "sizeCount": 10,
      "notLoaded": [],
      "body": {
       "font": "Cabinet Grotesk",
@@ -1646,7 +2009,7 @@
      "microLabelShare": 0,
      "microSamples": [],
      "upperShare": 0,
-     "centerShare": 0.04,
+     "centerShare": 0.06,
      "smallText": 0
     },
     "eyebrows": [],
@@ -1662,26 +2025,35 @@
      "sectionBgs": [
       {
        "color": "#111111",
-       "top": 0,
+       "top": 60,
        "hsl": {
         "h": 0,
         "s": 0,
         "l": 0.07
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 10207,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
        }
       }
      ],
      "textColors": [
       {
        "color": "#141414",
-       "share": 0.73
-      },
-      {
-       "color": "#ffffff",
-       "share": 0.13
+       "share": 0.7
       },
       {
        "color": "#5e5e5e",
-       "share": 0.1
+       "share": 0.14
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
       },
       {
        "color": "#b5b5b5",
@@ -1689,7 +2061,7 @@
       },
       {
        "color": "#c41e17",
-       "share": 0
+       "share": 0.02
       }
      ],
      "button": {
@@ -1704,10 +2076,10 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 6,
+     "count": 13,
      "inHero": 3,
      "radius": 0,
-     "height": 52,
+     "height": 44,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
@@ -1756,16 +2128,16 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 10144,
+    "pageH": 12115,
     "margins": {
      "left": 20,
-     "right": 23
+     "right": 22
     },
     "sections": [
      {
       "sel": "header#top.hero",
       "tag": "header",
-      "top": 0,
+      "top": 60,
       "height": 1024,
       "words": 37,
       "media": 0,
@@ -1788,7 +2160,7 @@
      {
       "sel": "div.opener.grid",
       "tag": "div",
-      "top": 1024,
+      "top": 1084,
       "height": 158,
       "words": 19,
       "media": 0,
@@ -1809,11 +2181,34 @@
       "pinned": false
      },
      {
+      "sel": "div.spots-band",
+      "tag": "div",
+      "top": 1299,
+      "height": 324,
+      "words": 39,
+      "media": 0,
+      "middle": 18,
+      "heading": {
+       "text": "Now playing, for a limited time",
+       "size": 23,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 38,
+      "textLeft": 20,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "div.body.grid",
       "tag": "div",
-      "top": 1278,
-      "height": 4169,
-      "words": 455,
+      "top": 1679,
+      "height": 4356,
+      "words": 477,
       "media": 1,
       "middle": 24,
       "heading": {
@@ -1834,11 +2229,11 @@
      {
       "sel": "section.proof",
       "tag": "section",
-      "top": 5447,
-      "height": 640,
-      "words": 115,
+      "top": 6035,
+      "height": 647,
+      "words": 125,
       "media": 0,
-      "middle": 8170,
+      "middle": 8001,
       "heading": {
        "text": "Yelp Top 100, 2024",
        "size": 77,
@@ -1846,8 +2241,8 @@
       },
       "left": 0,
       "right": 0,
-      "textLeft": -1044,
-      "textRight": -8708,
+      "textLeft": -1214,
+      "textRight": -8539,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -1857,7 +2252,7 @@
      {
       "sel": "section#catering.cater.wrap",
       "tag": "section",
-      "top": 6184,
+      "top": 6778,
       "height": 376,
       "words": 31,
       "media": 0,
@@ -1878,9 +2273,32 @@
       "pinned": false
      },
      {
+      "sel": "section#gifts.gift.wrap",
+      "tag": "section",
+      "top": 7154,
+      "height": 298,
+      "words": 24,
+      "media": 0,
+      "middle": 103,
+      "heading": {
+       "text": "Give someone a pie night.",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 22,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "div.intro",
       "tag": "div",
-      "top": 6721,
+      "top": 7612,
       "height": 126,
       "words": 19,
       "media": 0,
@@ -1899,7 +2317,7 @@
      {
       "sel": "div.people",
       "tag": "div",
-      "top": 6927,
+      "top": 7818,
       "height": 1919,
       "words": 152,
       "media": 4,
@@ -1916,9 +2334,55 @@
       "pinned": false
      },
      {
+      "sel": "section.gram",
+      "tag": "section",
+      "top": 9833,
+      "height": 373,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Fresh out of the oven",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#join.join",
+      "tag": "section",
+      "top": 10207,
+      "height": 609,
+      "words": 70,
+      "media": 0,
+      "middle": 87,
+      "heading": {
+       "text": "First to the next pie.",
+       "size": 58,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "section#visit.visit",
       "tag": "section",
-      "top": 8941,
+      "top": 10912,
       "height": 535,
       "words": 39,
       "media": 0,
@@ -1941,7 +2405,7 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 9572,
+      "top": 11543,
       "height": 571,
       "words": 38,
       "media": 0,
@@ -1967,7 +2431,7 @@
      {
       "text": "Much Ado About Pizza",
       "size": 47,
-      "top": 417,
+      "top": 477,
       "firstScreen": true
      }
     ],
@@ -1975,7 +2439,7 @@
     "edges": [
      {
       "x": 20,
-      "n": 11
+      "n": 16
      },
      {
       "x": 333,
@@ -1983,6 +2447,10 @@
      },
      {
       "x": 396,
+      "n": 1
+     },
+     {
+      "x": 459,
       "n": 1
      },
      {
@@ -1994,7 +2462,7 @@
       "n": 1
      }
     ],
-    "leftBlocks": 16,
+    "leftBlocks": 22,
     "bodySize": 18,
     "stage": false,
     "explains": false,
@@ -2012,22 +2480,22 @@
    "screens": 12,
    "filled": [
     1,
-    0.46,
-    0.42,
-    0.37,
+    0.73,
+    0.51,
     0.38,
-    0.37,
-    0.63,
-    0.57,
-    0.47,
-    0.43,
-    0.44,
-    0.7
+    0.31,
+    0.41,
+    0.38,
+    0.59,
+    0.56,
+    0.61,
+    0.42,
+    0.54
    ],
    "motion": {
-    "elements": 40,
+    "elements": 42,
     "css": 16,
-    "transitions": 24,
+    "transitions": 26,
     "scripted": 0,
     "videos": 0,
     "playingVideos": 0
@@ -2038,14 +2506,14 @@
      "h": 844
     },
     "page": {
-     "height": 10305,
-     "screens": 12.2,
-     "words": 883,
-     "img": 73,
+     "height": 12999,
+     "screens": 15.4,
+     "words": 1086,
+     "img": 82,
      "video": 0,
      "canvas": 0,
      "svg": 1,
-     "sections": 5,
+     "sections": 8,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
@@ -2082,7 +2550,7 @@
      "align": "center",
      "position": "center",
      "widthRatio": 0.88,
-     "top": 327,
+     "top": 406,
      "tag": "h1",
      "kind": "heading"
     },
@@ -2111,7 +2579,7 @@
       "align": "center",
       "position": "center",
       "widthRatio": 0.88,
-      "top": 327,
+      "top": 406,
       "tag": "h1",
       "kind": "heading"
      },
@@ -2132,7 +2600,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 844,
+      "top": 923,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2153,7 +2621,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 1.35,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2174,7 +2642,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 1.35,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2195,7 +2663,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.61,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2216,7 +2684,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.12,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2237,7 +2705,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.95,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2258,7 +2726,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.76,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2279,7 +2747,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.22,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2300,7 +2768,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.35,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2321,7 +2789,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.35,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2342,7 +2810,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.61,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2363,7 +2831,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.12,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2384,7 +2852,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.95,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2405,7 +2873,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.76,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2426,7 +2894,7 @@
       "align": "left",
       "position": "right",
       "widthRatio": 1.22,
-      "top": 5364,
+      "top": 6281,
       "tag": "span",
       "kind": "heading"
      },
@@ -2447,8 +2915,92 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 5990,
+      "top": 6985,
       "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Give someone a pie night.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 7473,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "$25",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 7655,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "$50",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.28,
+      "top": 7655,
+      "tag": "a",
+      "kind": "heading"
+     },
+     {
+      "text": "$100",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.28,
+      "top": 7655,
+      "tag": "a",
       "kind": "heading"
      },
      {
@@ -2468,7 +3020,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 6493,
+      "top": 7851,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2489,9 +3041,51 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 6646,
+      "top": 8004,
       "tag": "p",
       "kind": "statement"
+     },
+     {
+      "text": "Fresh out of the oven",
+      "words": 5,
+      "chars": 21,
+      "lines": 2,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10468,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "First to the next pie.",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 42.9,
+      "vw": 11,
+      "font": "Cabinet Grotesk",
+      "weight": 800,
+      "tracking": -0.035,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10959,
+      "tag": "h2",
+      "kind": "heading"
      },
      {
       "text": "Where art thou?",
@@ -2510,7 +3104,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 9014,
+      "top": 11707,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2531,7 +3125,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 1,
-      "top": 9510,
+      "top": 12203,
       "tag": "a",
       "kind": "heading"
      },
@@ -2552,7 +3146,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 9754,
+      "top": 12447,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2573,13 +3167,13 @@
       "align": "center",
       "position": "center",
       "widthRatio": 1,
-      "top": 10156,
+      "top": 12850,
       "tag": "p",
       "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 23,
+     "count": 29,
      "maxLines": 4,
      "over2Lines": 0,
      "statements": 2,
@@ -2604,6 +3198,7 @@
       19,
       20,
       22,
+      28,
       37,
       43,
       47,
@@ -2611,7 +3206,7 @@
       66,
       85
      ],
-     "sizeCount": 13,
+     "sizeCount": 14,
      "notLoaded": [],
      "body": {
       "font": "Cabinet Grotesk",
@@ -2636,7 +3231,7 @@
      "microLabelShare": 0,
      "microSamples": [],
      "upperShare": 0,
-     "centerShare": 0.04,
+     "centerShare": 0.06,
      "smallText": 0
     },
     "eyebrows": [],
@@ -2652,26 +3247,35 @@
      "sectionBgs": [
       {
        "color": "#111111",
-       "top": 0,
+       "top": 79,
        "hsl": {
         "h": 0,
         "s": 0,
         "l": 0.07
+       }
+      },
+      {
+       "color": "#f4f4f4",
+       "top": 10895,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.96
        }
       }
      ],
      "textColors": [
       {
        "color": "#141414",
-       "share": 0.73
-      },
-      {
-       "color": "#ffffff",
-       "share": 0.12
+       "share": 0.7
       },
       {
        "color": "#5e5e5e",
-       "share": 0.1
+       "share": 0.14
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.11
       },
       {
        "color": "#b5b5b5",
@@ -2679,7 +3283,7 @@
       },
       {
        "color": "#c41e17",
-       "share": 0
+       "share": 0.02
       }
      ],
      "button": {
@@ -2694,10 +3298,10 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 6,
+     "count": 13,
      "inHero": 4,
      "radius": 0,
-     "height": 52,
+     "height": 44,
      "withShadow": 0,
      "withGradient": 0,
      "mono": 0,
@@ -2732,7 +3336,7 @@
     },
     "heroMedia": [],
     "nav": {
-     "links": 5,
+     "links": 3,
      "fixed": false,
      "height": 844,
      "floatingPill": false,
@@ -2747,16 +3351,16 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 10305,
+    "pageH": 12999,
     "margins": {
      "left": 16,
-     "right": 22
+     "right": 19
     },
     "sections": [
      {
       "sel": "header#top.hero",
       "tag": "header",
-      "top": 0,
+      "top": 79,
       "height": 844,
       "words": 33,
       "media": 0,
@@ -2779,7 +3383,7 @@
      {
       "sel": "div.opener.grid",
       "tag": "div",
-      "top": 844,
+      "top": 923,
       "height": 191,
       "words": 20,
       "media": 0,
@@ -2800,11 +3404,34 @@
       "pinned": false
      },
      {
+      "sel": "div.spots-band",
+      "tag": "div",
+      "top": 1170,
+      "height": 568,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Now playing, for a limited time",
+       "size": 20,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 37,
+      "textLeft": 20,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "div.body.grid",
       "tag": "div",
-      "top": 1075,
-      "height": 4225,
-      "words": 447,
+      "top": 1778,
+      "height": 4439,
+      "words": 469,
       "media": 0,
       "middle": 0,
       "heading": null,
@@ -2821,11 +3448,11 @@
      {
       "sel": "section.proof",
       "tag": "section",
-      "top": 5301,
-      "height": 593,
-      "words": 115,
+      "top": 6217,
+      "height": 672,
+      "words": 125,
       "media": 0,
-      "middle": 4410,
+      "middle": 4403,
       "heading": {
        "text": "Yelp Top 100, 2024",
        "size": 59,
@@ -2833,8 +3460,8 @@
       },
       "left": 20,
       "right": 0,
-      "textLeft": -920,
-      "textRight": -6703,
+      "textLeft": -927,
+      "textRight": -6696,
       "fullBleed": false,
       "footer": false,
       "hero": false,
@@ -2844,7 +3471,7 @@
      {
       "sel": "section#catering.cater.wrap",
       "tag": "section",
-      "top": 5990,
+      "top": 6985,
       "height": 391,
       "words": 31,
       "media": 0,
@@ -2865,9 +3492,32 @@
       "pinned": false
      },
      {
+      "sel": "section#gifts.gift.wrap",
+      "tag": "section",
+      "top": 7377,
+      "height": 363,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Give someone a pie night.",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 44,
+      "textLeft": 20,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "div.pin",
       "tag": "div",
-      "top": 6477,
+      "top": 7835,
       "height": 129,
       "words": 0,
       "media": 0,
@@ -2886,7 +3536,7 @@
      {
       "sel": "div.intro",
       "tag": "div",
-      "top": 6606,
+      "top": 7964,
       "height": 150,
       "words": 19,
       "media": 0,
@@ -2909,9 +3559,9 @@
      {
       "sel": "div.people",
       "tag": "div",
-      "top": 6804,
+      "top": 8162,
       "height": 2114,
-      "words": 152,
+      "words": 139,
       "media": 4,
       "middle": 0,
       "heading": null,
@@ -2926,9 +3576,55 @@
       "pinned": false
      },
      {
+      "sel": "section.gram",
+      "tag": "section",
+      "top": 10372,
+      "height": 524,
+      "words": 9,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Fresh out of the oven",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 16,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#join.join",
+      "tag": "section",
+      "top": 10895,
+      "height": 716,
+      "words": 70,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "First to the next pie.",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
       "sel": "section#visit.visit",
       "tag": "section",
-      "top": 9014,
+      "top": 11707,
       "height": 580,
       "words": 39,
       "media": 0,
@@ -2951,7 +3647,7 @@
      {
       "sel": "footer",
       "tag": "footer",
-      "top": 9690,
+      "top": 12383,
       "height": 614,
       "words": 40,
       "media": 0,
@@ -2972,12 +3668,17 @@
       "pinned": false
      }
     ],
-    "gaps": [],
+    "gaps": [
+     {
+      "top": 10204,
+      "height": 256
+     }
+    ],
     "h1s": [
      {
       "text": "Much Ado About Pizza",
       "size": 43,
-      "top": 327,
+      "top": 406,
       "firstScreen": true
      }
     ],
@@ -2985,10 +3686,10 @@
     "edges": [
      {
       "x": 16,
-      "n": 14
+      "n": 19
      }
     ],
-    "leftBlocks": 14,
+    "leftBlocks": 19,
     "bodySize": 16,
     "stage": false,
     "explains": false,
@@ -3008,6 +3709,7 @@
    "message": "10 different font sizes (13, 14, 17, 19, 26, 45, 84, 88, 144, 336).",
    "fix": "A page needs about five: display, heading, lead, body, small.",
    "alsoAt": [
+    768,
     390
    ]
   },
@@ -3020,16 +3722,9 @@
   },
   {
    "level": "WARN",
-   "id": "off-centre",
-   "width": 1440,
-   "message": "The margins differ: 32px on the left, 48px on the right, at 1440px.",
-   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
-  },
-  {
-   "level": "WARN",
    "id": "empty-middle",
    "width": 1440,
-   "message": "1 section(s) have content at both edges and 14930px of nothing between: \"Yelp Top 100, 2024\"",
+   "message": "1 section(s) have content at both edges and 14882px of nothing between: \"Yelp Top 100, 2024\"",
    "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half.",
    "alsoAt": [
     768

@@ -44,6 +44,14 @@ TOPPINGS = ["Pepperoni", "Italian sausage", "Bacon", "Ham", "Prosciutto", "Roast
 DIPS = ["Much Ado red", "Benedick white garlic", "Beatrice pesto", "Hot honey", "Salsa Parmesan",
         "Don Rancho garlic ranch", "Jalapeño ranch", "Ranch"]
 STYLES = ["Original, 14-inch round", "Marlowe, 13×9 rectangle"]
+TAGS = {  # small labels on menu rows. "Popular on Yelp" = Yelp's Popular Dishes list, read 2026-10-23
+    "Montague": "Popular on Yelp", "Taming of the Chew": "Popular on Yelp", "Capulet": "Popular on Yelp",
+    "Cheesy “Bard” Bread": "Popular on Yelp", "Viola’s Veggie": "Award-winning",
+}
+SPOTLIGHT = 3  # the first rows of PIES are the seasonal spotlight pies
+GIFTS = [25, 50, 100]  # gift card amounts, in dollars
+INSTAGRAM = "https://www.instagram.com/muchadoaboutpizza/"
+GRAM = ["sunshine", "caligarden", "p20240831", "p20241205", "henry8b", "p20221126"]  # shop photos not used elsewhere
 NAMES = ["Yelp Top 100, 2024", "Yelp Top 100, 2025", "SF Gate Best of the Bay", "U.S. Pizza Team",
          "International Pizza Challenge", "California Pizza Challenge", "PMQ cover story"]
 
@@ -67,6 +75,9 @@ def item(kind, name, what, price, img, section):
         it["opts"].update(sauce=SAUCES, toppings=TOPPINGS)
     if "Bard" in name:
         it["opts"]["dip"] = DIPS
+    it["tag"] = TAGS.get(name)
+    if section == "pizzas":  # "Your pick" suits everyone, so it shows under both filters
+        it["diet"] = "both" if kind == "Your pick" else "veg" if "vegetarian" in what.lower() else "meat"
     return it
 
 
@@ -75,14 +86,26 @@ def row(it):
     pic = f' data-img="web/{it["img"]}.jpg"' if it["img"] else ''
     thumb = (f'<img src="web/{it["img"]}-s.jpg" alt="" width="64" height="64" loading="lazy">' if it["img"]
              else '')
-    return (f'<li id="{it["id"]}"><a href="{ORDER}#{it["section"]}" data-item="{it["id"]}"{pic} data-cap="{e(it["name"])}, {e(it["price"])}">'
-            f'<span class="thumb" aria-hidden="true">{thumb}</span><span class="kind">{e(it["kind"])}</span><span><span class="name" translate="no">{e(it["name"])}</span>'
+    tag = f'<span class="tag">{e(it["tag"])}</span>' if it["tag"] else ''
+    diet = f' data-diet="{it["diet"]}"' if it.get("diet") else ''
+    return (f'<li id="{it["id"]}"{diet}><a href="{ORDER}#{it["section"]}" data-item="{it["id"]}"{pic} data-cap="{e(it["name"])}, {e(it["price"])}">'
+            f'<span class="thumb" aria-hidden="true">{thumb}</span><span class="kind">{e(it["kind"])}</span><span><span class="name" translate="no">{e(it["name"])}</span>{tag}'
             f'<span class="what">{e(it["what"])}</span></span><span class="price num">{e(it["price"])}<span class="arr" aria-hidden="true">→</span></span></a></li>')
 
 
 pies = [item(*p, "pizzas") for p in PIES]
 sides = [item(*x) for x in SIDES]
-menu = {it["id"]: it for it in pies + sides}
+gifts = [{"id": f"gift-{d}", "kind": "Gift card", "name": f"${d} gift card", "price": f"${d}", "cents": d * 100, "img": None,
+          "section": "giftcards", "what": "Sent by email with your note. Good for any pie, bread or salad.", "opts": {"gift": True}, "tag": None}
+         for d in GIFTS]
+menu = {it["id"]: it for it in pies + sides + gifts}
+
+
+def spot(it):
+    e = html.escape
+    return (f'<li><a href="{ORDER}#pizzas" data-item="{it["id"]}"><img src="web/{it["img"]}-p.jpg" alt="{e(it["name"])}" width="320" height="400" loading="lazy">'
+            f'<span><b translate="no">{e(it["name"])}</b><span class="what">{e(it["what"].split(". ", 1)[-1])}</span>'
+            f'<span class="price num">{e(it["price"])} <span class="arr" aria-hidden="true">→</span></span></span></a></li>')
 open(os.path.join(ROOT, "menu.json"), "w", encoding="utf-8").write(json.dumps(menu, ensure_ascii=False, indent=1))
 
 # the menu preview: one stacked layer per photo, so pointing at a row only switches which layer shows
@@ -97,6 +120,11 @@ out = (src.replace("{{RING}}", ring)
           .replace("{{MENU}}", json.dumps(menu, ensure_ascii=False).replace("</", "<\\/"))
           .replace("{{COUNT}}", str(len(PIES)))
           .replace("{{PREVIEW}}", preview)
+          .replace("{{SPOTS}}", "".join(spot(it) for it in pies[:SPOTLIGHT]))
+          .replace("{{GIFTS}}", "".join(f'<a class="amt num" href="{ORDER}" data-item="gift-{d}">${d}</a>' for d in GIFTS))
+          .replace("{{GRAM}}", "".join(f'<li><a href="{INSTAGRAM}"><img src="web/{g}.jpg" alt="Pizza from Much Ado" width="600" height="600" loading="lazy"></a></li>' for g in GRAM))
+          .replace("{{VEG}}", str(sum(it["diet"] in ("veg", "both") for it in pies)))
+          .replace("{{MEAT}}", str(sum(it["diet"] in ("meat", "both") for it in pies)))
           .replace("{{NAMES}}", "".join(f"<span>{html.escape(n)}</span>" for n in NAMES))
           .replace("{{ORDER}}", ORDER))
 assert "{{" not in out

@@ -13,7 +13,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "veg"
  },
  "pie-frankenspeare": {
   "id": "pie-frankenspeare",
@@ -29,7 +31,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-alls-well-in-the-end-zone": {
   "id": "pie-alls-well-in-the-end-zone",
@@ -45,7 +49,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-much-ado-original-cheese": {
   "id": "pie-much-ado-original-cheese",
@@ -61,7 +67,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-as-you-like-it": {
   "id": "pie-as-you-like-it",
@@ -104,7 +112,9 @@
     "Arugula",
     "Fresh basil"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "both"
  },
  "pie-groundling": {
   "id": "pie-groundling",
@@ -120,7 +130,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "veg"
  },
  "pie-taming-of-the-chew": {
   "id": "pie-taming-of-the-chew",
@@ -136,7 +148,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": "Popular on Yelp",
+  "diet": "meat"
  },
  "pie-capulet": {
   "id": "pie-capulet",
@@ -152,7 +166,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": "Popular on Yelp",
+  "diet": "veg"
  },
  "pie-tempest": {
   "id": "pie-tempest",
@@ -168,7 +184,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "veg"
  },
  "pie-quatrain": {
   "id": "pie-quatrain",
@@ -184,7 +202,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "veg"
  },
  "pie-fowl-staff": {
   "id": "pie-fowl-staff",
@@ -200,7 +220,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-montague": {
   "id": "pie-montague",
@@ -216,7 +238,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": "Popular on Yelp",
+  "diet": "meat"
  },
  "pie-violas-veggie": {
   "id": "pie-violas-veggie",
@@ -232,7 +256,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": "Award-winning",
+  "diet": "veg"
  },
  "pie-ham-let": {
   "id": "pie-ham-let",
@@ -248,7 +274,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-othellos-obsession": {
   "id": "pie-othellos-obsession",
@@ -264,7 +292,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "veg"
  },
  "pie-portias-pesto-pizza": {
   "id": "pie-portias-pesto-pizza",
@@ -280,7 +310,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-titanias-bounty": {
   "id": "pie-titanias-bounty",
@@ -296,7 +328,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "veg"
  },
  "pie-act-five": {
   "id": "pie-act-five",
@@ -312,7 +346,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-henry-the-8": {
   "id": "pie-henry-the-8",
@@ -328,7 +364,9 @@
     "Original, 14-inch round",
     "Marlowe, 13×9 rectangle"
    ]
-  }
+  },
+  "tag": null,
+  "diet": "meat"
  },
  "pie-cheesy-bard-bread": {
   "id": "pie-cheesy-bard-bread",
@@ -350,7 +388,8 @@
     "Jalapeño ranch",
     "Ranch"
    ]
-  }
+  },
+  "tag": "Popular on Yelp"
  },
  "pie-stuffed-cheesy-bread": {
   "id": "pie-stuffed-cheesy-bread",
@@ -361,7 +400,8 @@
   "cents": 1200,
   "img": "hr/stuffedcheezybread",
   "section": "appetizers",
-  "opts": {}
+  "opts": {},
+  "tag": null
  },
  "pie-stuffed-jalape-o-bacon": {
   "id": "pie-stuffed-jalape-o-bacon",
@@ -372,7 +412,8 @@
   "cents": 1400,
   "img": "hr/stuffedjalapenobread",
   "section": "appetizers",
-  "opts": {}
+  "opts": {},
+  "tag": null
  },
  "pie-stuffed-spinach-goat": {
   "id": "pie-stuffed-spinach-goat",
@@ -383,7 +424,8 @@
   "cents": 1400,
   "img": "hr/stuffedspinachbread",
   "section": "appetizers",
-  "opts": {}
+  "opts": {},
+  "tag": null
  },
  "pie-individual-salad": {
   "id": "pie-individual-salad",
@@ -394,7 +436,8 @@
   "cents": 600,
   "img": "salad",
   "section": "salads",
-  "opts": {}
+  "opts": {},
+  "tag": null
  },
  "pie-family-salad": {
   "id": "pie-family-salad",
@@ -405,7 +448,8 @@
   "cents": 1000,
   "img": "salad",
   "section": "salads",
-  "opts": {}
+  "opts": {},
+  "tag": null
  },
  "pie-epic-dips": {
   "id": "pie-epic-dips",
@@ -416,6 +460,49 @@
   "cents": null,
   "img": "p20230429",
   "section": "epicdips",
-  "opts": {}
+  "opts": {},
+  "tag": null
+ },
+ "gift-25": {
+  "id": "gift-25",
+  "kind": "Gift card",
+  "name": "$25 gift card",
+  "price": "$25",
+  "cents": 2500,
+  "img": null,
+  "section": "giftcards",
+  "what": "Sent by email with your note. Good for any pie, bread or salad.",
+  "opts": {
+   "gift": true
+  },
+  "tag": null
+ },
+ "gift-50": {
+  "id": "gift-50",
+  "kind": "Gift card",
+  "name": "$50 gift card",
+  "price": "$50",
+  "cents": 5000,
+  "img": null,
+  "section": "giftcards",
+  "what": "Sent by email with your note. Good for any pie, bread or salad.",
+  "opts": {
+   "gift": true
+  },
+  "tag": null
+ },
+ "gift-100": {
+  "id": "gift-100",
+  "kind": "Gift card",
+  "name": "$100 gift card",
+  "price": "$100",
+  "cents": 10000,
+  "img": null,
+  "section": "giftcards",
+  "what": "Sent by email with your note. Good for any pie, bread or salad.",
+  "opts": {
+   "gift": true
+  },
+  "tag": null
  }
 }

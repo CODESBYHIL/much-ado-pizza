@@ -1,5 +1,6 @@
 # Makes the menu photos in web/hr/ from the shop's HungerRush item photos in img/hungerrush/:
-# name.jpg is 3:2 for the preview and the order sheet, name-s.jpg is a square thumbnail.
+# name.jpg is 3:2 for the preview and the order sheet, name-s.jpg is a square thumbnail,
+# name-p.jpg is 4:5 for the spotlight cards.
 # A few HungerRush photos are upright; those sit whole on the site's near-black instead of being cropped.
 import os
 from PIL import Image, ImageFilter
@@ -25,4 +26,8 @@ for f in sorted(os.listdir(SRC)):
     side = min(w, h)
     im.crop(((w - side) // 2, (h - side) // 2, (w + side) // 2, (h + side) // 2)).resize((160, 160), Image.LANCZOS) \
       .save(os.path.join(OUT, f[:-4] + "-s.jpg"), quality=82, optimize=True)
+    pw = min(w, h * 4 // 5)
+    ph = pw * 5 // 4
+    im.crop(((w - pw) // 2, (h - ph) // 2, (w + pw) // 2, (h + ph) // 2)).resize((320, 400), Image.LANCZOS) \
+      .save(os.path.join(OUT, f[:-4] + "-p.jpg"), quality=82, optimize=True)
     print(f, im.size)

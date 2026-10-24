@@ -58,6 +58,19 @@ Every pie and bread in the menu uses the shop's own item photo from its HungerRu
 preview and the order sheet) and `name-s.jpg` (square thumbnail). They are only 600×300, so ask the
 owners for the full-size files before launch. The hero wheel still uses the larger photos from their site.
 
+## Bringing people back
+
+- **Email and text signup** ("First to the next pie") and two opt-in boxes at checkout. With `server.mjs`
+  running they are saved to `signups.jsonl` with the exact text-message consent wording; on GitHub Pages the
+  form says it's a demo. Before launch: pick an email tool (Mailchimp, Klaviyo) and a texting tool (Klaviyo,
+  Postscript, Twilio), register the texting number (US 10DLC), and add a privacy policy page.
+- **Order again:** the last order is remembered in the visitor's browser and offered on the menu and in the bag.
+- **Gift cards** ($25 / $50 / $100) go through the bag like food. Before launch the owners need a way to
+  issue and redeem them (HungerRush or their POS gift cards).
+- **Popular on Yelp** tags come from Yelp's Popular Dishes list (Montague, Taming of the Chew, Capulet,
+  Bard Bread), and the 4.7 / 290 reviews line from their Yelp page, both read 2026-10-23. Update them now and then.
+- Not done, needs the owners: photos or a short clip of the shop, the oven and the dough.
+
 ## Before launch
 
 - **The kitchen must get the orders.** Today they come through HungerRush, which feeds the shop's POS.
