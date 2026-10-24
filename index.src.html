@@ -1000,7 +1000,7 @@ legend small { font-weight: 400; color: var(--muted); }
     const ok = await signup({ email, phone: texts ? phone : '', texts, source: 'signup' });
     if (ok === false) return say('That didn’t go through. Try again in a minute.', true);
     join.reset();
-    say(ok ? 'You’re on the list. Thanks!' : 'Demo only: on the live site this adds you to the list.');
+    say(ok ? 'You’re on the list. Thanks!' : 'This preview doesn’t save signups yet. Once the shop connects its email and text tools, this adds you to the list.');
   });
 
   const openBag = () => { if (step === 'done') step = 'cart'; go(step === 'pay' ? 'pay' : step); bag.showModal(); paintBag(); };
